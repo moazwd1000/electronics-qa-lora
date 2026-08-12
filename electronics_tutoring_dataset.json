@@ -1,0 +1,2002 @@
+[
+  {
+    "id": 1,
+    "topic": "Kirchhoff's Laws",
+    "difficulty": "basic",
+    "instruction": "Give a clear conceptual explanation of the following electronics question.",
+    "question": "What is Kirchhoff's Current Law (KCL)?",
+    "answer": "KCL states that the total current entering a node must equal the total current leaving it. This follows from conservation of electric charge, meaning charge cannot simply appear or disappear at a circuit node."
+  },
+  {
+    "id": 2,
+    "topic": "Kirchhoff's Laws",
+    "difficulty": "basic",
+    "instruction": "Explain this concept as if you were tutoring an undergraduate engineering student.",
+    "question": "What is Kirchhoff's Voltage Law (KVL)?",
+    "answer": "KVL states that the algebraic sum of all voltage changes around any closed loop in a circuit is zero. This follows from conservation of energy, since a charge returning to its starting point must have zero net change in potential energy."
+  },
+  {
+    "id": 3,
+    "topic": "Kirchhoff's Laws",
+    "difficulty": "basic",
+    "instruction": "Provide a concise technical explanation suitable for an electronics student.",
+    "question": "What does 'node' mean in the context of KCL?",
+    "answer": "A node is any point in a circuit where two or more circuit elements connect. KCL is applied at nodes because that's where multiple current paths meet and charge must be conserved."
+  },
+  {
+    "id": 4,
+    "topic": "Kirchhoff's Laws",
+    "difficulty": "basic",
+    "instruction": "Answer the following electronics question in a way an undergraduate would understand.",
+    "question": "What does 'loop' mean in the context of KVL?",
+    "answer": "A loop is any closed path in a circuit that starts and ends at the same point, passing through a series of circuit elements. KVL applies to any such loop, regardless of how many elements it contains."
+  },
+  {
+    "id": 5,
+    "topic": "Kirchhoff's Laws",
+    "difficulty": "basic",
+    "instruction": "Explain this electronics concept to an undergraduate student.",
+    "question": "What physical law is KCL based on?",
+    "answer": "KCL is based on the conservation of electric charge. Since charge cannot be created or destroyed at a node, whatever current flows in must flow back out."
+  },
+  {
+    "id": 6,
+    "topic": "Kirchhoff's Laws",
+    "difficulty": "basic",
+    "instruction": "Give a clear conceptual explanation of the following electronics question.",
+    "question": "What physical law is KVL based on?",
+    "answer": "KVL is based on the conservation of energy. As a unit charge travels around a closed loop, the net work done on it must be zero because it returns to the same electric potential."
+  },
+  {
+    "id": 7,
+    "topic": "Kirchhoff's Laws",
+    "difficulty": "basic",
+    "instruction": "Explain this concept as if you were tutoring an undergraduate engineering student.",
+    "question": "Define KCL in one sentence.",
+    "answer": "KCL states that the sum of currents entering a node equals the sum of currents leaving it."
+  },
+  {
+    "id": 8,
+    "topic": "Kirchhoff's Laws",
+    "difficulty": "basic",
+    "instruction": "Provide a concise technical explanation suitable for an electronics student.",
+    "question": "Define KVL in one sentence.",
+    "answer": "KVL states that the sum of voltage drops and rises around any closed loop equals zero."
+  },
+  {
+    "id": 9,
+    "topic": "Kirchhoff's Laws",
+    "difficulty": "basic",
+    "instruction": "Answer the following electronics question in a way an undergraduate would understand.",
+    "question": "What is the sign convention typically used when applying KCL?",
+    "answer": "Currents flowing into a node are usually taken as positive and currents flowing out as negative (or vice versa), as long as the convention is applied consistently so the signed sum equals zero."
+  },
+  {
+    "id": 10,
+    "topic": "Kirchhoff's Laws",
+    "difficulty": "basic",
+    "instruction": "Explain this electronics concept to an undergraduate student.",
+    "question": "What is the sign convention typically used when applying KVL?",
+    "answer": "Voltage drops in the direction of travel around the loop are usually taken as negative and voltage rises as positive (or vice versa), as long as the convention stays consistent throughout the loop."
+  },
+  {
+    "id": 11,
+    "topic": "Kirchhoff's Laws",
+    "difficulty": "basic",
+    "instruction": "Give a clear conceptual explanation of the following electronics question.",
+    "question": "Are KCL and KVL always true in any circuit?",
+    "answer": "Yes, for lumped circuits where wire lengths are small compared to the signal wavelength, KCL and KVL hold exactly. They are simplifications of Maxwell's equations under the lumped-element assumption."
+  },
+  {
+    "id": 12,
+    "topic": "Kirchhoff's Laws",
+    "difficulty": "basic",
+    "instruction": "Explain this concept as if you were tutoring an undergraduate engineering student.",
+    "question": "What is the difference between Kirchhoff's Current Law and Kirchhoff's Voltage Law?",
+    "answer": "KCL deals with current conservation at a node, stating that current in equals current out. KVL deals with voltage conservation around a closed loop, stating that the sum of voltage changes is zero. One is about charge flow, the other about energy."
+  },
+  {
+    "id": 13,
+    "topic": "Kirchhoff's Laws",
+    "difficulty": "basic",
+    "instruction": "Provide a concise technical explanation suitable for an electronics student.",
+    "question": "Compare KCL and KVL.",
+    "answer": "KCL is applied at a single node and is based on charge conservation, while KVL is applied around an entire loop and is based on energy conservation. Both are needed together to fully analyze most circuits."
+  },
+  {
+    "id": 14,
+    "topic": "Kirchhoff's Laws",
+    "difficulty": "basic",
+    "instruction": "Answer the following electronics question in a way an undergraduate would understand.",
+    "question": "What is a branch in circuit analysis?",
+    "answer": "A branch is a single circuit element, such as a resistor or source, connecting two nodes. KCL and KVL equations are written in terms of the currents and voltages associated with branches."
+  },
+  {
+    "id": 15,
+    "topic": "Kirchhoff's Laws",
+    "difficulty": "basic",
+    "instruction": "Explain this electronics concept to an undergraduate student.",
+    "question": "What is nodal analysis?",
+    "answer": "Nodal analysis is a systematic method for solving circuits by writing KCL equations at each non-reference node in terms of unknown node voltages, then solving the resulting system of equations."
+  },
+  {
+    "id": 16,
+    "topic": "Kirchhoff's Laws",
+    "difficulty": "basic",
+    "instruction": "Give a clear conceptual explanation of the following electronics question.",
+    "question": "What is mesh analysis?",
+    "answer": "Mesh analysis is a systematic method for solving planar circuits by writing KVL equations around each independent loop (mesh) in terms of unknown mesh currents, then solving the resulting system of equations."
+  },
+  {
+    "id": 17,
+    "topic": "Kirchhoff's Laws",
+    "difficulty": "basic",
+    "instruction": "Explain this concept as if you were tutoring an undergraduate engineering student.",
+    "question": "Explain KCL briefly.",
+    "answer": "KCL says that current can't pile up at a node - whatever flows in must flow back out, because charge is conserved."
+  },
+  {
+    "id": 18,
+    "topic": "Kirchhoff's Laws",
+    "difficulty": "basic",
+    "instruction": "Provide a concise technical explanation suitable for an electronics student.",
+    "question": "Explain KVL briefly.",
+    "answer": "KVL says that if you add up all the voltage rises and drops as you go around any closed loop, they must cancel out to zero."
+  },
+  {
+    "id": 19,
+    "topic": "Kirchhoff's Laws",
+    "difficulty": "basic",
+    "instruction": "Answer the following electronics question in a way an undergraduate would understand.",
+    "question": "What is a reference node (ground) used for in nodal analysis?",
+    "answer": "The reference node is assigned a voltage of 0 V and serves as the baseline against which all other node voltages are measured, which reduces the number of unknowns you need to solve for."
+  },
+  {
+    "id": 20,
+    "topic": "Kirchhoff's Laws",
+    "difficulty": "basic",
+    "instruction": "Explain this electronics concept to an undergraduate student.",
+    "question": "How many independent KVL equations can be written for a circuit with a given number of loops?",
+    "answer": "You can write one independent KVL equation for each independent (mesh) loop in a planar circuit, which corresponds to the number of loops needed to cover every branch without redundancy."
+  },
+  {
+    "id": 21,
+    "topic": "Kirchhoff's Laws",
+    "difficulty": "intermediate",
+    "instruction": "Give a clear conceptual explanation of the following electronics question.",
+    "question": "Why does KCL hold at every node in a circuit?",
+    "answer": "KCL holds because electric charge is conserved and cannot accumulate at an ideal node, which has no capacitance. If more current entered than left, charge would build up indefinitely, which is not physically possible in steady state."
+  },
+  {
+    "id": 22,
+    "topic": "Kirchhoff's Laws",
+    "difficulty": "intermediate",
+    "instruction": "Explain this concept as if you were tutoring an undergraduate engineering student.",
+    "question": "Why does KVL hold around any closed loop?",
+    "answer": "KVL holds because the electric field in a circuit is conservative, meaning the work done moving a charge around any closed path is zero. Since voltage is defined as energy per unit charge, the net voltage change around a loop must be zero."
+  },
+  {
+    "id": 23,
+    "topic": "Kirchhoff's Laws",
+    "difficulty": "intermediate",
+    "instruction": "Provide a concise technical explanation suitable for an electronics student.",
+    "question": "Why do we need both KCL and KVL to fully analyze a circuit?",
+    "answer": "KCL alone only constrains currents at nodes, and KVL alone only constrains voltages around loops. Neither law alone captures both the topology and the element relationships (like Ohm's Law), so both are needed together with component equations to solve for all unknowns."
+  },
+  {
+    "id": 24,
+    "topic": "Kirchhoff's Laws",
+    "difficulty": "intermediate",
+    "instruction": "Answer the following electronics question in a way an undergraduate would understand.",
+    "question": "Why does the sign convention matter when applying KVL?",
+    "answer": "If the sign convention is applied inconsistently, some voltage rises might be miscounted as drops or vice versa, which breaks the physical meaning of the equation and gives an incorrect result. Consistency ensures the algebraic sum genuinely reflects energy conservation."
+  },
+  {
+    "id": 25,
+    "topic": "Kirchhoff's Laws",
+    "difficulty": "intermediate",
+    "instruction": "Explain this electronics concept to an undergraduate student.",
+    "question": "Why is KCL applied at nodes rather than along branches?",
+    "answer": "A node is where multiple branches meet, so it's the only point where current from different paths can be compared and summed. Along a single branch, current is constant everywhere due to conservation of charge, so there's nothing to balance."
+  },
+  {
+    "id": 26,
+    "topic": "Kirchhoff's Laws",
+    "difficulty": "intermediate",
+    "instruction": "Give a clear conceptual explanation of the following electronics question.",
+    "question": "Why doesn't current 'run out' partway through a series circuit?",
+    "answer": "Because charge cannot accumulate anywhere in a series branch, KCL guarantees the current entering one end of a series path must equal the current leaving the other end. This is why series elements all share the same current."
+  },
+  {
+    "id": 27,
+    "topic": "Kirchhoff's Laws",
+    "difficulty": "intermediate",
+    "instruction": "Explain this concept as if you were tutoring an undergraduate engineering student.",
+    "question": "Why can KCL be written either as 'sum of currents in equals sum out' or as 'algebraic sum of currents equals zero'?",
+    "answer": "These are the same statement written two ways. If you define current entering as positive and current leaving as negative, then 'in equals out' becomes 'positive terms plus negative terms equal zero', which is the algebraic sum form."
+  },
+  {
+    "id": 28,
+    "topic": "Kirchhoff's Laws",
+    "difficulty": "intermediate",
+    "instruction": "Provide a concise technical explanation suitable for an electronics student.",
+    "question": "Why does KVL break down at very high frequencies?",
+    "answer": "At high frequencies, wavelength becomes comparable to circuit dimensions, so the lumped-element assumption breaks down and time-varying magnetic fields can induce loop voltages that aren't accounted for by KVL. In these regimes, full electromagnetic (distributed) analysis is needed instead."
+  },
+  {
+    "id": 29,
+    "topic": "Kirchhoff's Laws",
+    "difficulty": "intermediate",
+    "instruction": "Answer the following electronics question in a way an undergraduate would understand.",
+    "question": "Why is nodal analysis often preferred for circuits with many parallel branches?",
+    "answer": "Nodal analysis directly solves for node voltages, and parallel elements share the same two nodes, so they combine naturally into single KCL equations without needing extra loop-tracing. This tends to produce fewer equations than mesh analysis in such circuits."
+  },
+  {
+    "id": 30,
+    "topic": "Kirchhoff's Laws",
+    "difficulty": "intermediate",
+    "instruction": "Explain this electronics concept to an undergraduate student.",
+    "question": "Why is mesh analysis often preferred for circuits with many series elements?",
+    "answer": "Mesh analysis assigns one current per loop and automatically satisfies KCL at every internal node, so series elements sharing a single loop current require fewer equations than tracking each node voltage separately."
+  },
+  {
+    "id": 31,
+    "topic": "Kirchhoff's Laws",
+    "difficulty": "intermediate",
+    "instruction": "Give a clear conceptual explanation of the following electronics question.",
+    "question": "Why must voltage sources be handled carefully in nodal analysis?",
+    "answer": "An ideal voltage source directly fixes the voltage difference between two nodes without a current-voltage relationship of its own, so instead of a normal KCL term you must use a supernode technique that combines the two nodes into one equation."
+  },
+  {
+    "id": 32,
+    "topic": "Kirchhoff's Laws",
+    "difficulty": "intermediate",
+    "instruction": "Explain this concept as if you were tutoring an undergraduate engineering student.",
+    "question": "Why must current sources be handled carefully in mesh analysis?",
+    "answer": "An ideal current source fixes the current through a branch without giving a voltage relationship, so when two meshes share a current source you must use a supermesh technique that combines their KVL equations into one."
+  },
+  {
+    "id": 33,
+    "topic": "Kirchhoff's Laws",
+    "difficulty": "intermediate",
+    "instruction": "Provide a concise technical explanation suitable for an electronics student.",
+    "question": "Why is KCL considered a consequence of Maxwell's equations rather than an independent law?",
+    "answer": "KCL can be derived from the continuity equation, a consequence of Maxwell's equations, under the assumption that charge doesn't accumulate at circuit nodes. It's a special-case simplification rather than a fundamentally separate physical law."
+  },
+  {
+    "id": 34,
+    "topic": "Kirchhoff's Laws",
+    "difficulty": "intermediate",
+    "instruction": "Answer the following electronics question in a way an undergraduate would understand.",
+    "question": "Why is KVL considered a consequence of Maxwell's equations rather than an independent law?",
+    "answer": "KVL follows from Faraday's law under the assumption of negligible time-varying magnetic flux through the loop, which holds for lumped circuits at low frequencies. It is an approximation of the more general electromagnetic behavior."
+  },
+  {
+    "id": 35,
+    "topic": "Kirchhoff's Laws",
+    "difficulty": "intermediate",
+    "instruction": "Explain this electronics concept to an undergraduate student.",
+    "question": "Why does applying KVL to a loop with two voltage sources require care about polarity?",
+    "answer": "Each source contributes a voltage rise or drop depending on its polarity relative to the direction you're tracing the loop, so if the sources oppose each other their contributions partially cancel rather than simply adding, and getting the signs wrong flips the result."
+  },
+  {
+    "id": 36,
+    "topic": "Kirchhoff's Laws",
+    "difficulty": "intermediate",
+    "instruction": "Give a clear conceptual explanation of the following electronics question.",
+    "question": "Why doesn't KCL depend on the resistance or type of element connected to a node?",
+    "answer": "KCL is purely a statement about charge conservation at a point in the circuit, independent of what physical elements are attached. The element properties (resistance, capacitance, etc.) determine the current-voltage relationship, but not whether charge balances at the node."
+  },
+  {
+    "id": 37,
+    "topic": "Kirchhoff's Laws",
+    "difficulty": "intermediate",
+    "instruction": "Explain this concept as if you were tutoring an undergraduate engineering student.",
+    "question": "Why is it useful to choose a ground node before starting nodal analysis?",
+    "answer": "Choosing a ground node fixes a reference potential, which removes one redundant unknown from the system (since only voltage differences matter) and simplifies the resulting equations."
+  },
+  {
+    "id": 38,
+    "topic": "Kirchhoff's Laws",
+    "difficulty": "intermediate",
+    "instruction": "Provide a concise technical explanation suitable for an electronics student.",
+    "question": "Why can superposition be combined with KCL and KVL for circuits with multiple sources?",
+    "answer": "Because circuits with only linear elements obey the linearity property, KCL and KVL hold independently for the contribution of each source, so you can analyze one source at a time and add the results, which is exactly what superposition does."
+  },
+  {
+    "id": 39,
+    "topic": "Kirchhoff's Laws",
+    "difficulty": "intermediate",
+    "instruction": "Answer the following electronics question in a way an undergraduate would understand.",
+    "question": "Why does a short circuit satisfy KVL trivially in a loop?",
+    "answer": "A short circuit has zero resistance, so it contributes zero voltage drop regardless of the current through it, meaning it doesn't add a term that needs balancing beyond what the other elements already establish."
+  },
+  {
+    "id": 40,
+    "topic": "Kirchhoff's Laws",
+    "difficulty": "intermediate",
+    "instruction": "Explain this electronics concept to an undergraduate student.",
+    "question": "Why does an open circuit branch not need to be included in a KCL equation at a node?",
+    "answer": "An open circuit forces zero current through that branch, so including it in the KCL sum simply adds a term equal to zero and doesn't affect the balance of the other currents."
+  },
+  {
+    "id": 41,
+    "topic": "Kirchhoff's Laws",
+    "difficulty": "intermediate",
+    "instruction": "Give a clear conceptual explanation of the following electronics question.",
+    "question": "Why is it important to track the direction of traversal when writing a KVL equation?",
+    "answer": "The traversal direction determines whether you record a component's voltage as a rise or a drop, and if the direction is switched partway through the loop without adjusting the signs, the equation will no longer represent a physically closed path."
+  },
+  {
+    "id": 42,
+    "topic": "Kirchhoff's Laws",
+    "difficulty": "applied",
+    "instruction": "Explain this concept as if you were tutoring an undergraduate engineering student.",
+    "question": "A node has currents of 2 A and 3 A entering it. If one branch has 4 A leaving, what must the remaining current be?",
+    "answer": "By KCL, total current in equals total current out, so 2 A + 3 A = 5 A in. If 4 A leaves through one branch, the remaining branch must carry 5 A - 4 A = 1 A leaving the node."
+  },
+  {
+    "id": 43,
+    "topic": "Kirchhoff's Laws",
+    "difficulty": "applied",
+    "instruction": "Provide a concise technical explanation suitable for an electronics student.",
+    "question": "In a loop with a 12 V source and two resistors dropping 5 V and 3 V, what must the third element's voltage drop be?",
+    "answer": "By KVL, the sum of drops must equal the source voltage, so 12 V = 5 V + 3 V + V3, which gives V3 = 4 V across the third element."
+  },
+  {
+    "id": 44,
+    "topic": "Kirchhoff's Laws",
+    "difficulty": "applied",
+    "instruction": "Answer the following electronics question in a way an undergraduate would understand.",
+    "question": "When applying KVL to a loop containing two voltage sources with opposing polarities, how should the voltage terms be represented?",
+    "answer": "Each source is written with a sign based on whether you encounter its positive or negative terminal first while tracing the loop, so opposing sources effectively subtract from each other in the equation rather than adding, reflecting their net effect on the loop."
+  },
+  {
+    "id": 45,
+    "topic": "Kirchhoff's Laws",
+    "difficulty": "applied",
+    "instruction": "Explain this electronics concept to an undergraduate student.",
+    "question": "Three resistors are connected in parallel between the same two nodes, with branch currents of 1 A, 2 A, and unknown I3, and a total incoming current of 6 A. Find I3.",
+    "answer": "By KCL at the top node, the sum of the branch currents must equal the total incoming current: 1 A + 2 A + I3 = 6 A, so I3 = 3 A."
+  },
+  {
+    "id": 46,
+    "topic": "Kirchhoff's Laws",
+    "difficulty": "applied",
+    "instruction": "Give a clear conceptual explanation of the following electronics question.",
+    "question": "A circuit loop has a 9 V battery and three resistors in series. Two resistors drop 2 V and 4 V respectively. What is the voltage across the third resistor?",
+    "answer": "Applying KVL around the loop, 9 V = 2 V + 4 V + V3, so V3 = 3 V."
+  },
+  {
+    "id": 47,
+    "topic": "Kirchhoff's Laws",
+    "difficulty": "applied",
+    "instruction": "Explain this concept as if you were tutoring an undergraduate engineering student.",
+    "question": "At a node, current enters through two branches (3 A and 1.5 A) and leaves through three branches, two of which carry 1 A and 2 A. What is the current in the third outgoing branch?",
+    "answer": "Total current in is 3 A + 1.5 A = 4.5 A. Two outgoing branches account for 1 A + 2 A = 3 A, so by KCL the third branch must carry 4.5 A - 3 A = 1.5 A."
+  },
+  {
+    "id": 48,
+    "topic": "Kirchhoff's Laws",
+    "difficulty": "applied",
+    "instruction": "Provide a concise technical explanation suitable for an electronics student.",
+    "question": "How would you set up a KCL equation at a node with an unknown current I, a 5 A source entering, and two resistive branches leaving carrying V/10 and V/20 (where V is the node voltage)?",
+    "answer": "The KCL equation would be written as 5 A (in) = V/10 + V/20 (out), treating the source as a known current and the resistive branches as functions of the unknown node voltage V, which can then be solved algebraically."
+  },
+  {
+    "id": 49,
+    "topic": "Kirchhoff's Laws",
+    "difficulty": "applied",
+    "instruction": "Answer the following electronics question in a way an undergraduate would understand.",
+    "question": "A loop contains a voltage source and a branch shared with another loop containing a current source. How would you apply KVL here?",
+    "answer": "Since the shared branch has a current source with an undefined voltage, you would combine the two loops into a supermesh, writing one KVL equation around the combined outer boundary while separately noting the current source's known value as a constraint equation."
+  },
+  {
+    "id": 50,
+    "topic": "Kirchhoff's Laws",
+    "difficulty": "applied",
+    "instruction": "Explain this electronics concept to an undergraduate student.",
+    "question": "Given a two-node circuit with a current source of 4 A feeding node A, and two resistors of 2 ohm and 4 ohm connecting node A to ground, find the current through each resistor using KCL.",
+    "answer": "By KCL, the 4 A entering node A splits between the two resistors according to their conductances. Since they're in parallel, using current divider logic derived from KCL and Ohm's Law, the 2 ohm resistor carries 8/3 A and the 4 ohm resistor carries 4/3 A, summing back to 4 A."
+  },
+  {
+    "id": 51,
+    "topic": "Kirchhoff's Laws",
+    "difficulty": "applied",
+    "instruction": "Give a clear conceptual explanation of the following electronics question.",
+    "question": "Explain step-by-step how you would apply KVL to find an unknown voltage in a single-loop circuit with a 10 V source, a 3 V drop, a 2 V drop, and an unknown drop Vx.",
+    "answer": "First, pick a consistent direction to trace the loop, typically the direction of assumed current flow. Second, assign a sign to each element's voltage based on whether you enter its positive or negative terminal first. Third, write the KVL equation summing all these signed voltages to zero: 10 V - 3 V - 2 V - Vx = 0. Finally, solve algebraically to get Vx = 5 V."
+  },
+  {
+    "id": 52,
+    "topic": "Diodes",
+    "difficulty": "basic",
+    "instruction": "Explain this concept as if you were tutoring an undergraduate engineering student.",
+    "question": "What is a diode?",
+    "answer": "A diode is a two-terminal semiconductor device that allows current to flow easily in one direction while blocking it in the reverse direction. It is formed from a junction between p-type and n-type semiconductor material."
+  },
+  {
+    "id": 53,
+    "topic": "Diodes",
+    "difficulty": "basic",
+    "instruction": "Provide a concise technical explanation suitable for an electronics student.",
+    "question": "What is a PN junction?",
+    "answer": "A PN junction is the boundary formed where p-type semiconductor (with excess holes) meets n-type semiconductor (with excess electrons). This junction is the basic building block of a diode and creates a region that controls current flow."
+  },
+  {
+    "id": 54,
+    "topic": "Diodes",
+    "difficulty": "basic",
+    "instruction": "Answer the following electronics question in a way an undergraduate would understand.",
+    "question": "What is the depletion region in a diode?",
+    "answer": "The depletion region is a thin zone around the PN junction that is depleted of free charge carriers, formed when electrons and holes near the junction diffuse and recombine, leaving behind fixed charged ions that create an internal electric field."
+  },
+  {
+    "id": 55,
+    "topic": "Diodes",
+    "difficulty": "basic",
+    "instruction": "Explain this electronics concept to an undergraduate student.",
+    "question": "What does forward bias mean for a diode?",
+    "answer": "Forward bias means the diode's anode (p-side) is connected to a higher potential than its cathode (n-side), which narrows the depletion region and allows current to flow easily once the voltage exceeds the diode's turn-on threshold."
+  },
+  {
+    "id": 56,
+    "topic": "Diodes",
+    "difficulty": "basic",
+    "instruction": "Give a clear conceptual explanation of the following electronics question.",
+    "question": "What does reverse bias mean for a diode?",
+    "answer": "Reverse bias means the diode's cathode is connected to a higher potential than its anode, which widens the depletion region and blocks current flow except for a very small leakage current."
+  },
+  {
+    "id": 57,
+    "topic": "Diodes",
+    "difficulty": "basic",
+    "instruction": "Explain this concept as if you were tutoring an undergraduate engineering student.",
+    "question": "What is the typical forward voltage drop of a silicon diode?",
+    "answer": "A silicon diode typically has a forward voltage drop of about 0.6 to 0.7 V when conducting, due to the built-in potential barrier at the PN junction."
+  },
+  {
+    "id": 58,
+    "topic": "Diodes",
+    "difficulty": "basic",
+    "instruction": "Provide a concise technical explanation suitable for an electronics student.",
+    "question": "What is the typical forward voltage drop of a germanium diode?",
+    "answer": "A germanium diode typically has a forward voltage drop of about 0.2 to 0.3 V, which is lower than silicon because germanium has a smaller bandgap."
+  },
+  {
+    "id": 59,
+    "topic": "Diodes",
+    "difficulty": "basic",
+    "instruction": "Answer the following electronics question in a way an undergraduate would understand.",
+    "question": "What is an ideal diode?",
+    "answer": "An ideal diode is a simplified model that acts as a perfect short circuit (zero voltage drop) when forward biased and a perfect open circuit (zero current) when reverse biased, used to simplify circuit analysis."
+  },
+  {
+    "id": 60,
+    "topic": "Diodes",
+    "difficulty": "basic",
+    "instruction": "Explain this electronics concept to an undergraduate student.",
+    "question": "What is a Zener diode?",
+    "answer": "A Zener diode is a specially designed diode that is operated in reverse breakdown to maintain a constant voltage across it, making it useful for voltage regulation applications."
+  },
+  {
+    "id": 61,
+    "topic": "Diodes",
+    "difficulty": "basic",
+    "instruction": "Give a clear conceptual explanation of the following electronics question.",
+    "question": "What is an LED?",
+    "answer": "An LED (light-emitting diode) is a diode that emits light when forward biased, as electrons and holes recombine across the junction and release energy in the form of photons."
+  },
+  {
+    "id": 62,
+    "topic": "Diodes",
+    "difficulty": "basic",
+    "instruction": "Explain this concept as if you were tutoring an undergraduate engineering student.",
+    "question": "What is a photodiode?",
+    "answer": "A photodiode is a diode designed to generate current when exposed to light, operated in reverse bias so that absorbed photons create electron-hole pairs that contribute to a measurable photocurrent."
+  },
+  {
+    "id": 63,
+    "topic": "Diodes",
+    "difficulty": "basic",
+    "instruction": "Provide a concise technical explanation suitable for an electronics student.",
+    "question": "What is rectification?",
+    "answer": "Rectification is the process of converting alternating current (AC) into direct current (DC), commonly done using one or more diodes that only allow current to flow in one direction."
+  },
+  {
+    "id": 64,
+    "topic": "Diodes",
+    "difficulty": "basic",
+    "instruction": "Answer the following electronics question in a way an undergraduate would understand.",
+    "question": "Define a diode in one sentence.",
+    "answer": "A diode is a one-way valve for electric current, conducting in the forward direction and blocking in the reverse direction."
+  },
+  {
+    "id": 65,
+    "topic": "Diodes",
+    "difficulty": "basic",
+    "instruction": "Explain this electronics concept to an undergraduate student.",
+    "question": "What is breakdown voltage in a diode?",
+    "answer": "Breakdown voltage is the reverse voltage at which a diode begins to conduct heavily in the reverse direction, typically due to avalanche or Zener breakdown mechanisms."
+  },
+  {
+    "id": 66,
+    "topic": "Diodes",
+    "difficulty": "basic",
+    "instruction": "Give a clear conceptual explanation of the following electronics question.",
+    "question": "What is the cut-in (threshold) voltage of a diode?",
+    "answer": "The cut-in voltage is the minimum forward voltage needed before a diode begins to conduct significant current, roughly 0.7 V for silicon and 0.3 V for germanium."
+  },
+  {
+    "id": 67,
+    "topic": "Diodes",
+    "difficulty": "basic",
+    "instruction": "Explain this concept as if you were tutoring an undergraduate engineering student.",
+    "question": "What is a diode's static resistance?",
+    "answer": "Static resistance is the ratio of DC voltage to DC current at a specific operating point on the diode's characteristic curve, which is not constant because diode behavior is nonlinear."
+  },
+  {
+    "id": 68,
+    "topic": "Diodes",
+    "difficulty": "basic",
+    "instruction": "Provide a concise technical explanation suitable for an electronics student.",
+    "question": "What is a diode's dynamic (AC) resistance?",
+    "answer": "Dynamic resistance is the slope of the diode's voltage-current curve at a specific operating point, representing how much the voltage changes for a small change in current around that point."
+  },
+  {
+    "id": 69,
+    "topic": "Diodes",
+    "difficulty": "basic",
+    "instruction": "Answer the following electronics question in a way an undergraduate would understand.",
+    "question": "What is half-wave rectification?",
+    "answer": "Half-wave rectification uses a single diode to pass only one half-cycle of an AC input, blocking the other half, resulting in a pulsating DC output with gaps."
+  },
+  {
+    "id": 70,
+    "topic": "Diodes",
+    "difficulty": "basic",
+    "instruction": "Explain this electronics concept to an undergraduate student.",
+    "question": "What is full-wave rectification?",
+    "answer": "Full-wave rectification uses multiple diodes (commonly four in a bridge configuration) to convert both halves of an AC cycle into DC, producing a smoother output with no gaps compared to half-wave rectification."
+  },
+  {
+    "id": 71,
+    "topic": "Diodes",
+    "difficulty": "basic",
+    "instruction": "Give a clear conceptual explanation of the following electronics question.",
+    "question": "What is a varactor diode?",
+    "answer": "A varactor diode is a diode whose junction capacitance varies with the applied reverse voltage, making it useful in tuning circuits such as voltage-controlled oscillators."
+  },
+  {
+    "id": 72,
+    "topic": "Diodes",
+    "difficulty": "intermediate",
+    "instruction": "Explain this concept as if you were tutoring an undergraduate engineering student.",
+    "question": "Why does a diode conduct current in only one direction?",
+    "answer": "The PN junction's depletion region and built-in electric field oppose current flow in reverse bias by blocking majority carrier movement, while in forward bias the applied voltage overcomes this barrier and allows majority carriers to flow across the junction."
+  },
+  {
+    "id": 73,
+    "topic": "Diodes",
+    "difficulty": "intermediate",
+    "instruction": "Provide a concise technical explanation suitable for an electronics student.",
+    "question": "Why does forward bias narrow the depletion region?",
+    "answer": "Forward bias pushes holes from the p-side and electrons from the n-side toward the junction, which counteracts the built-in field and reduces the width of the region depleted of charge carriers, eventually allowing carriers to cross."
+  },
+  {
+    "id": 74,
+    "topic": "Diodes",
+    "difficulty": "intermediate",
+    "instruction": "Answer the following electronics question in a way an undergraduate would understand.",
+    "question": "Why does reverse bias widen the depletion region?",
+    "answer": "Reverse bias pulls majority carriers away from the junction on both sides, exposing more fixed ionic charge and increasing the depletion width, which strengthens the internal field opposing further current flow."
+  },
+  {
+    "id": 75,
+    "topic": "Diodes",
+    "difficulty": "intermediate",
+    "instruction": "Explain this electronics concept to an undergraduate student.",
+    "question": "Why is there a small reverse leakage current even in reverse bias?",
+    "answer": "Minority carriers (electrons in the p-side, holes in the n-side) are still thermally generated and can be swept across the junction by the reverse electric field, producing a small saturation current that exists regardless of bias magnitude until breakdown."
+  },
+  {
+    "id": 76,
+    "topic": "Diodes",
+    "difficulty": "intermediate",
+    "instruction": "Give a clear conceptual explanation of the following electronics question.",
+    "question": "Why does a diode have a nonzero turn-on voltage instead of conducting at any positive voltage?",
+    "answer": "The built-in potential from the depletion region's electric field must be overcome before current can flow significantly, so a minimum forward voltage is required to reduce the barrier enough for diffusion current to dominate."
+  },
+  {
+    "id": 77,
+    "topic": "Diodes",
+    "difficulty": "intermediate",
+    "instruction": "Explain this concept as if you were tutoring an undergraduate engineering student.",
+    "question": "Why is silicon's forward voltage drop higher than germanium's?",
+    "answer": "Silicon has a larger bandgap energy than germanium, which means a larger built-in potential barrier must be overcome at the junction before substantial forward current can flow."
+  },
+  {
+    "id": 78,
+    "topic": "Diodes",
+    "difficulty": "intermediate",
+    "instruction": "Provide a concise technical explanation suitable for an electronics student.",
+    "question": "Why does a Zener diode maintain a constant voltage in reverse breakdown?",
+    "answer": "In the breakdown region, small changes in voltage cause very large changes in current due to the steepness of the characteristic curve, so the voltage across the diode stays nearly constant over a wide range of currents."
+  },
+  {
+    "id": 79,
+    "topic": "Diodes",
+    "difficulty": "intermediate",
+    "instruction": "Answer the following electronics question in a way an undergraduate would understand.",
+    "question": "Why is a diode's current-voltage relationship exponential rather than linear?",
+    "answer": "The diode equation derives from the diffusion of carriers across the junction, which depends exponentially on the applied voltage relative to thermal voltage, unlike a resistor where current is a linear function of voltage."
+  },
+  {
+    "id": 80,
+    "topic": "Diodes",
+    "difficulty": "intermediate",
+    "instruction": "Explain this electronics concept to an undergraduate student.",
+    "question": "Why do LEDs made from different semiconductor materials emit different colors?",
+    "answer": "The energy of the emitted photon corresponds to the material's bandgap energy, and since different semiconductor compounds have different bandgaps, the wavelength (and therefore color) of emitted light varies by material."
+  },
+  {
+    "id": 81,
+    "topic": "Diodes",
+    "difficulty": "intermediate",
+    "instruction": "Give a clear conceptual explanation of the following electronics question.",
+    "question": "Why is a photodiode typically operated in reverse bias rather than forward bias?",
+    "answer": "Reverse bias widens the depletion region, increasing the volume available for absorbing photons and generating carriers, and it also speeds up carrier collection, giving faster and more linear response to light."
+  },
+  {
+    "id": 82,
+    "topic": "Diodes",
+    "difficulty": "intermediate",
+    "instruction": "Explain this concept as if you were tutoring an undergraduate engineering student.",
+    "question": "Why does full-wave rectification produce a smoother output than half-wave rectification?",
+    "answer": "Full-wave rectification uses both halves of the AC cycle instead of discarding one, so the output pulses occur twice as often per cycle, which reduces the gaps between pulses and requires less filtering to approximate steady DC."
+  },
+  {
+    "id": 83,
+    "topic": "Diodes",
+    "difficulty": "intermediate",
+    "instruction": "Provide a concise technical explanation suitable for an electronics student.",
+    "question": "Why is a diode's dynamic resistance smaller at higher forward current?",
+    "answer": "Because the diode's I-V curve is exponential, the slope of the curve increases with current, and dynamic resistance (the inverse of that slope in terms of current-voltage) decreases as the operating point moves further into forward conduction."
+  },
+  {
+    "id": 84,
+    "topic": "Diodes",
+    "difficulty": "intermediate",
+    "instruction": "Answer the following electronics question in a way an undergraduate would understand.",
+    "question": "Why can a diode be damaged if reverse voltage exceeds its breakdown rating (outside a Zener's designed range)?",
+    "answer": "Exceeding breakdown voltage can trigger avalanche multiplication, where accelerated carriers ionize the crystal lattice and generate a rapidly increasing current, which can produce enough heat to permanently damage the device unless current is limited."
+  },
+  {
+    "id": 85,
+    "topic": "Diodes",
+    "difficulty": "intermediate",
+    "instruction": "Explain this electronics concept to an undergraduate student.",
+    "question": "Why does temperature affect a diode's forward voltage drop?",
+    "answer": "Higher temperature increases the intrinsic carrier concentration and thermal voltage, which generally reduces the forward voltage needed for a given current, causing the typical silicon diode drop to decrease by roughly 2 mV per degree Celsius rise."
+  },
+  {
+    "id": 86,
+    "topic": "Diodes",
+    "difficulty": "intermediate",
+    "instruction": "Give a clear conceptual explanation of the following electronics question.",
+    "question": "Why is reverse recovery time important in switching applications?",
+    "answer": "When a diode switches from forward conduction to reverse blocking, stored minority carriers must first be swept out or recombine before the diode can fully block current, and this delay (reverse recovery time) can cause unwanted current spikes in fast-switching circuits."
+  },
+  {
+    "id": 87,
+    "topic": "Diodes",
+    "difficulty": "intermediate",
+    "instruction": "Explain this concept as if you were tutoring an undergraduate engineering student.",
+    "question": "Why is a clamping circuit different from a clipping circuit even though both use diodes?",
+    "answer": "A clipping circuit removes part of a signal's voltage above or below a threshold, effectively limiting amplitude, while a clamping circuit shifts the entire signal up or down without changing its shape, typically using a diode with a capacitor to add a DC offset."
+  },
+  {
+    "id": 88,
+    "topic": "Diodes",
+    "difficulty": "intermediate",
+    "instruction": "Provide a concise technical explanation suitable for an electronics student.",
+    "question": "Why does a bridge rectifier need four diodes instead of two?",
+    "answer": "Four diodes allow current to be routed through the load in the same direction regardless of which half of the AC cycle is active, using two diodes conducting at a time in alternating pairs, which achieves full-wave rectification without needing a center-tapped transformer."
+  },
+  {
+    "id": 89,
+    "topic": "Diodes",
+    "difficulty": "intermediate",
+    "instruction": "Answer the following electronics question in a way an undergraduate would understand.",
+    "question": "Why is the ideal diode model useful despite being inaccurate at low voltages?",
+    "answer": "The ideal model greatly simplifies analysis by treating the diode as a simple switch, which is often accurate enough for first-pass circuit design when the forward drop is small relative to other voltages in the circuit."
+  },
+  {
+    "id": 90,
+    "topic": "Diodes",
+    "difficulty": "intermediate",
+    "instruction": "Explain this electronics concept to an undergraduate student.",
+    "question": "Why does a varactor diode's capacitance decrease as reverse voltage increases?",
+    "answer": "Increasing reverse voltage widens the depletion region, and since the depletion region acts like the dielectric of a parallel-plate capacitor, a wider region corresponds to a larger effective plate separation and therefore lower capacitance."
+  },
+  {
+    "id": 91,
+    "topic": "Diodes",
+    "difficulty": "intermediate",
+    "instruction": "Give a clear conceptual explanation of the following electronics question.",
+    "question": "Why can't an ordinary diode be used efficiently as a voltage regulator the way a Zener diode can?",
+    "answer": "An ordinary diode is designed to avoid breakdown, so pushing it into reverse breakdown could damage it, whereas a Zener diode is specifically manufactured and rated to operate stably and repeatedly in that region."
+  },
+  {
+    "id": 92,
+    "topic": "Diodes",
+    "difficulty": "applied",
+    "instruction": "Explain this concept as if you were tutoring an undergraduate engineering student.",
+    "question": "A silicon diode with a 0.7 V forward drop is in series with a 5 V source and a 470 ohm resistor. Find the current through the circuit.",
+    "answer": "Applying KVL, the resistor voltage is 5 V - 0.7 V = 4.3 V. Using Ohm's Law, the current is 4.3 V / 470 ohm, which is approximately 9.15 mA."
+  },
+  {
+    "id": 93,
+    "topic": "Diodes",
+    "difficulty": "applied",
+    "instruction": "Provide a concise technical explanation suitable for an electronics student.",
+    "question": "Explain step-by-step how a half-wave rectifier converts AC to pulsating DC.",
+    "answer": "First, the AC input voltage rises and falls sinusoidally. Second, during the positive half-cycle, the diode is forward biased and conducts, allowing current to flow to the load. Third, during the negative half-cycle, the diode is reverse biased and blocks current, so the output voltage drops to zero. The result is a series of positive pulses separated by gaps corresponding to the blocked negative half-cycles."
+  },
+  {
+    "id": 94,
+    "topic": "Diodes",
+    "difficulty": "applied",
+    "instruction": "Answer the following electronics question in a way an undergraduate would understand.",
+    "question": "Compare a signal diode and a power (rectifier) diode.",
+    "answer": "A signal diode is optimized for fast switching and low capacitance, suited to small-signal applications like demodulation, while a power diode is optimized to handle much larger currents and dissipate more heat, suited to applications like rectification in power supplies."
+  },
+  {
+    "id": 95,
+    "topic": "Diodes",
+    "difficulty": "applied",
+    "instruction": "Explain this electronics concept to an undergraduate student.",
+    "question": "What happens when a diode's reverse voltage exceeds its Zener breakdown voltage in a voltage regulator circuit?",
+    "answer": "The diode enters the breakdown region and conducts current while maintaining an approximately constant voltage across itself, which is the intended behavior for regulation as long as the current stays within the diode's rated power dissipation."
+  },
+  {
+    "id": 96,
+    "topic": "Diodes",
+    "difficulty": "applied",
+    "instruction": "Give a clear conceptual explanation of the following electronics question.",
+    "question": "A clipping circuit uses a diode and a 2 V battery to limit a sine wave's positive peak. Explain how this works with an example.",
+    "answer": "The diode remains reverse biased and blocks current as long as the input voltage is below the 2 V threshold set by the battery, so the output follows the input unchanged. Once the input exceeds 2 V plus the diode's forward drop, the diode turns on and conducts, clamping the output near that level, effectively flattening the top of the sine wave above the threshold."
+  },
+  {
+    "id": 97,
+    "topic": "Diodes",
+    "difficulty": "applied",
+    "instruction": "Explain this concept as if you were tutoring an undergraduate engineering student.",
+    "question": "How would you determine whether a diode in a given circuit is forward or reverse biased?",
+    "answer": "You would compare the potential at the anode to the potential at the cathode using the surrounding circuit voltages; if the anode is at a higher potential than the cathode (accounting for other elements), the diode is forward biased, and if lower, it is reverse biased."
+  },
+  {
+    "id": 98,
+    "topic": "Diodes",
+    "difficulty": "applied",
+    "instruction": "Provide a concise technical explanation suitable for an electronics student.",
+    "question": "Two diodes are connected in parallel with opposite polarities across an AC source and a resistor, forming a simple limiter. What happens during each half-cycle?",
+    "answer": "During the positive half-cycle, one diode conducts once the voltage exceeds its forward threshold, clamping the output near that diode's forward drop, while during the negative half-cycle, the other diode conducts and clamps the output near its own forward drop in the opposite direction, together limiting the output to roughly plus/minus one diode drop."
+  },
+  {
+    "id": 99,
+    "topic": "Diodes",
+    "difficulty": "applied",
+    "instruction": "Answer the following electronics question in a way an undergraduate would understand.",
+    "question": "A photodiode is reverse biased and exposed to light of increasing intensity. What happens to its current?",
+    "answer": "As light intensity increases, more electron-hole pairs are generated in the depletion region, so the reverse photocurrent increases roughly proportionally with light intensity, assuming the diode isn't saturated."
+  },
+  {
+    "id": 100,
+    "topic": "Diodes",
+    "difficulty": "applied",
+    "instruction": "Explain this electronics concept to an undergraduate student.",
+    "question": "Explain step-by-step how a full-wave bridge rectifier processes one full AC cycle.",
+    "answer": "First, during the positive half-cycle, two diagonal diodes become forward biased and conduct, routing current through the load in one direction. Second, the other two diodes remain reverse biased and block current. Third, during the negative half-cycle, the roles reverse: the previously blocking diodes now conduct and route current through the load in the same direction as before, while the previously conducting diodes now block. The result is that current always flows the same way through the load, producing a full-wave rectified output."
+  },
+  {
+    "id": 101,
+    "topic": "Diodes",
+    "difficulty": "applied",
+    "instruction": "Give a clear conceptual explanation of the following electronics question.",
+    "question": "Why would an engineer choose a Schottky diode over a standard silicon diode in a fast-switching power supply?",
+    "answer": "A Schottky diode has a much lower forward voltage drop and negligible reverse recovery time compared to a standard PN junction diode, since it uses a metal-semiconductor junction rather than minority carrier injection, making it more efficient and faster for high-frequency switching applications."
+  },
+  {
+    "id": 102,
+    "topic": "BJTs",
+    "difficulty": "basic",
+    "instruction": "Explain this concept as if you were tutoring an undergraduate engineering student.",
+    "question": "What is a BJT?",
+    "answer": "A BJT (Bipolar Junction Transistor) is a three-terminal semiconductor device made of two PN junctions arranged as either NPN or PNP, used for amplification and switching. Its terminals are the base, emitter, and collector."
+  },
+  {
+    "id": 103,
+    "topic": "BJTs",
+    "difficulty": "basic",
+    "instruction": "Provide a concise technical explanation suitable for an electronics student.",
+    "question": "What are the three terminals of a BJT?",
+    "answer": "The three terminals of a BJT are the base, emitter, and collector. The base is the thin, lightly doped control terminal, the emitter injects majority carriers, and the collector gathers most of them."
+  },
+  {
+    "id": 104,
+    "topic": "BJTs",
+    "difficulty": "basic",
+    "instruction": "Answer the following electronics question in a way an undergraduate would understand.",
+    "question": "What is the difference between an NPN and a PNP transistor?",
+    "answer": "An NPN transistor has a p-type base sandwiched between two n-type regions, and current flows conventionally into the collector and out of the emitter. A PNP transistor has an n-type base sandwiched between two p-type regions, with current flowing in the opposite direction."
+  },
+  {
+    "id": 105,
+    "topic": "BJTs",
+    "difficulty": "basic",
+    "instruction": "Explain this electronics concept to an undergraduate student.",
+    "question": "What is the active region of a BJT?",
+    "answer": "The active region is the operating mode where the base-emitter junction is forward biased and the base-collector junction is reverse biased, allowing the transistor to act as a current amplifier."
+  },
+  {
+    "id": 106,
+    "topic": "BJTs",
+    "difficulty": "basic",
+    "instruction": "Give a clear conceptual explanation of the following electronics question.",
+    "question": "What is the cutoff region of a BJT?",
+    "answer": "The cutoff region is the operating mode where both junctions are reverse biased, so the transistor is effectively off and negligible current flows between collector and emitter."
+  },
+  {
+    "id": 107,
+    "topic": "BJTs",
+    "difficulty": "basic",
+    "instruction": "Explain this concept as if you were tutoring an undergraduate engineering student.",
+    "question": "What is the saturation region of a BJT?",
+    "answer": "The saturation region is the operating mode where both junctions are forward biased, and the transistor behaves like a closed switch with a small, roughly constant voltage between collector and emitter."
+  },
+  {
+    "id": 108,
+    "topic": "BJTs",
+    "difficulty": "basic",
+    "instruction": "Provide a concise technical explanation suitable for an electronics student.",
+    "question": "What is beta (current gain) in a BJT?",
+    "answer": "Beta, also called hFE, is the ratio of collector current to base current in the active region, representing how much the small base current is amplified into a larger collector current."
+  },
+  {
+    "id": 109,
+    "topic": "BJTs",
+    "difficulty": "basic",
+    "instruction": "Answer the following electronics question in a way an undergraduate would understand.",
+    "question": "What is the typical relationship between collector current, base current, and emitter current in a BJT?",
+    "answer": "The emitter current equals the sum of the base current and the collector current, since all carriers that don't recombine in the base and don't exit through the collector must flow out through the emitter (or vice versa depending on current direction convention)."
+  },
+  {
+    "id": 110,
+    "topic": "BJTs",
+    "difficulty": "basic",
+    "instruction": "Explain this electronics concept to an undergraduate student.",
+    "question": "What is the common-emitter configuration?",
+    "answer": "The common-emitter configuration uses the emitter as the shared reference terminal, with input applied at the base and output taken at the collector, and is the most common configuration for voltage amplification."
+  },
+  {
+    "id": 111,
+    "topic": "BJTs",
+    "difficulty": "basic",
+    "instruction": "Give a clear conceptual explanation of the following electronics question.",
+    "question": "What is the common-base configuration?",
+    "answer": "The common-base configuration uses the base as the shared reference terminal, with input applied at the emitter and output taken at the collector, typically providing high voltage gain but low current gain."
+  },
+  {
+    "id": 112,
+    "topic": "BJTs",
+    "difficulty": "basic",
+    "instruction": "Explain this concept as if you were tutoring an undergraduate engineering student.",
+    "question": "What is the common-collector (emitter follower) configuration?",
+    "answer": "The common-collector configuration uses the collector as the shared reference terminal, with input at the base and output at the emitter, providing high current gain and a voltage gain close to one, often used as a buffer."
+  },
+  {
+    "id": 113,
+    "topic": "BJTs",
+    "difficulty": "basic",
+    "instruction": "Provide a concise technical explanation suitable for an electronics student.",
+    "question": "What does 'biasing' mean for a BJT?",
+    "answer": "Biasing means setting up the DC operating conditions (currents and voltages) of a transistor so that it operates in the desired region, typically the active region for amplifier applications."
+  },
+  {
+    "id": 114,
+    "topic": "BJTs",
+    "difficulty": "basic",
+    "instruction": "Answer the following electronics question in a way an undergraduate would understand.",
+    "question": "What is the typical base-emitter voltage of a silicon BJT in the active region?",
+    "answer": "The base-emitter voltage of a silicon BJT in the active region is typically around 0.6 to 0.7 V, similar to a forward-biased silicon diode junction."
+  },
+  {
+    "id": 115,
+    "topic": "BJTs",
+    "difficulty": "basic",
+    "instruction": "Explain this electronics concept to an undergraduate student.",
+    "question": "What is the collector-emitter saturation voltage (VCE(sat))?",
+    "answer": "VCE(sat) is the small voltage (typically around 0.2 V for silicon) that remains between the collector and emitter when a BJT is fully saturated and acting as a closed switch."
+  },
+  {
+    "id": 116,
+    "topic": "BJTs",
+    "difficulty": "basic",
+    "instruction": "Give a clear conceptual explanation of the following electronics question.",
+    "question": "What does it mean to use a BJT as a switch?",
+    "answer": "Using a BJT as a switch means driving it between cutoff (off, no current) and saturation (on, current flows with minimal voltage drop) rather than operating it in the linear active region."
+  },
+  {
+    "id": 117,
+    "topic": "BJTs",
+    "difficulty": "basic",
+    "instruction": "Explain this concept as if you were tutoring an undergraduate engineering student.",
+    "question": "What is the Early effect?",
+    "answer": "The Early effect is the phenomenon where increasing the collector-emitter voltage slightly increases the collector current in the active region, due to the effective base width shrinking as the base-collector depletion region widens."
+  },
+  {
+    "id": 118,
+    "topic": "BJTs",
+    "difficulty": "basic",
+    "instruction": "Provide a concise technical explanation suitable for an electronics student.",
+    "question": "Why is the base region of a BJT made thin and lightly doped?",
+    "answer": "The base is made thin and lightly doped so that most carriers injected from the emitter cross it and reach the collector rather than recombining, which is what allows the transistor to achieve high current gain."
+  },
+  {
+    "id": 119,
+    "topic": "BJTs",
+    "difficulty": "basic",
+    "instruction": "Answer the following electronics question in a way an undergraduate would understand.",
+    "question": "What is the alpha parameter in a BJT?",
+    "answer": "Alpha is the ratio of collector current to emitter current, representing the fraction of emitter-injected carriers that successfully reach the collector, and it's typically close to but slightly less than 1."
+  },
+  {
+    "id": 120,
+    "topic": "BJTs",
+    "difficulty": "basic",
+    "instruction": "Explain this electronics concept to an undergraduate student.",
+    "question": "Explain a BJT briefly.",
+    "answer": "A BJT is a current-controlled device where a small current into the base controls a much larger current flowing from collector to emitter, making it useful as an amplifier or switch."
+  },
+  {
+    "id": 121,
+    "topic": "BJTs",
+    "difficulty": "basic",
+    "instruction": "Give a clear conceptual explanation of the following electronics question.",
+    "question": "What is thermal runaway in a BJT?",
+    "answer": "Thermal runaway is a destructive feedback effect where increased temperature raises collector current, which increases power dissipation and further raises temperature, potentially destroying the transistor if not controlled by proper biasing or heat sinking."
+  },
+  {
+    "id": 122,
+    "topic": "BJTs",
+    "difficulty": "intermediate",
+    "instruction": "Explain this concept as if you were tutoring an undergraduate engineering student.",
+    "question": "Why does a small base current control a much larger collector current in a BJT?",
+    "answer": "The base is thin and lightly doped, so most carriers injected from the heavily doped emitter diffuse across the base region without recombining and are swept into the collector by the reverse-biased base-collector junction, meaning only a small base current is needed to sustain a much larger emitter-to-collector current flow."
+  },
+  {
+    "id": 123,
+    "topic": "BJTs",
+    "difficulty": "intermediate",
+    "instruction": "Provide a concise technical explanation suitable for an electronics student.",
+    "question": "Why is the base-collector junction reverse biased in the active region?",
+    "answer": "Reverse biasing the base-collector junction creates a strong field that efficiently sweeps carriers arriving from the base into the collector, which is necessary for the transistor to act as a current-controlled current source rather than simply conducting like two back-to-back diodes."
+  },
+  {
+    "id": 124,
+    "topic": "BJTs",
+    "difficulty": "intermediate",
+    "instruction": "Answer the following electronics question in a way an undergraduate would understand.",
+    "question": "Why does a BJT stop amplifying once it enters saturation?",
+    "answer": "In saturation, both junctions are forward biased, so the collector-emitter voltage drops to a small, nearly fixed value and no longer responds proportionally to base current, meaning the linear amplification relationship (Ic = beta x Ib) no longer holds."
+  },
+  {
+    "id": 125,
+    "topic": "BJTs",
+    "difficulty": "intermediate",
+    "instruction": "Explain this electronics concept to an undergraduate student.",
+    "question": "Why does collector current increase slightly with collector-emitter voltage in the active region (Early effect)?",
+    "answer": "As collector-emitter voltage increases, the base-collector depletion region widens, effectively narrowing the neutral base width, which reduces recombination and allows more injected carriers to reach the collector, slightly increasing collector current."
+  },
+  {
+    "id": 126,
+    "topic": "BJTs",
+    "difficulty": "intermediate",
+    "instruction": "Give a clear conceptual explanation of the following electronics question.",
+    "question": "Why is emitter current always greater than collector current in a BJT?",
+    "answer": "Some of the carriers injected by the emitter recombine within the base region and never reach the collector, so the collector current is always slightly less than the emitter current, with the difference approximately equal to the base current."
+  },
+  {
+    "id": 127,
+    "topic": "BJTs",
+    "difficulty": "intermediate",
+    "instruction": "Explain this concept as if you were tutoring an undergraduate engineering student.",
+    "question": "Why do engineers often prefer the common-emitter configuration for voltage amplification?",
+    "answer": "The common-emitter configuration provides significant voltage gain and current gain simultaneously (making it a good power/voltage amplifier), unlike common-base (high voltage gain but no current gain) or common-collector (current gain but voltage gain near one)."
+  },
+  {
+    "id": 128,
+    "topic": "BJTs",
+    "difficulty": "intermediate",
+    "instruction": "Provide a concise technical explanation suitable for an electronics student.",
+    "question": "Why does a BJT need external bias resistors rather than being driven directly by a signal source?",
+    "answer": "Without proper DC biasing, the transistor's operating point could drift into cutoff or saturation with temperature or manufacturing variation, so bias resistors set a stable quiescent point in the active region that keeps amplification linear across the expected signal swing."
+  },
+  {
+    "id": 129,
+    "topic": "BJTs",
+    "difficulty": "intermediate",
+    "instruction": "Answer the following electronics question in a way an undergraduate would understand.",
+    "question": "Why is beta (current gain) not a perfectly reliable parameter to design around?",
+    "answer": "Beta varies significantly between individual transistors of the same part number, and also changes with temperature and collector current, so relying on a precise beta value can make a design overly sensitive to component variation; stable bias designs minimize this dependence."
+  },
+  {
+    "id": 130,
+    "topic": "BJTs",
+    "difficulty": "intermediate",
+    "instruction": "Explain this electronics concept to an undergraduate student.",
+    "question": "Why does using a BJT as a switch typically minimize power dissipation compared to the active region?",
+    "answer": "In cutoff, current is nearly zero, and in saturation, voltage is nearly zero, so in both states the product of voltage and current (power) is small, whereas in the active region both voltage and current can be significant simultaneously, dissipating more power."
+  },
+  {
+    "id": 131,
+    "topic": "BJTs",
+    "difficulty": "intermediate",
+    "instruction": "Give a clear conceptual explanation of the following electronics question.",
+    "question": "Why can thermal runaway occur in a BJT without proper biasing precautions?",
+    "answer": "Since collector current tends to increase with temperature, and increased current raises power dissipation and therefore temperature further, this creates a positive feedback loop; stabilizing biasing techniques like emitter degeneration resistors counteract this by reducing gain as current rises."
+  },
+  {
+    "id": 132,
+    "topic": "BJTs",
+    "difficulty": "intermediate",
+    "instruction": "Explain this concept as if you were tutoring an undergraduate engineering student.",
+    "question": "Why does adding an emitter resistor improve bias stability in a BJT amplifier?",
+    "answer": "An emitter resistor introduces negative feedback: if collector (and emitter) current rises, the voltage drop across the resistor increases, which reduces the effective base-emitter voltage and counteracts the current increase, stabilizing the operating point against temperature and beta variation."
+  },
+  {
+    "id": 133,
+    "topic": "BJTs",
+    "difficulty": "intermediate",
+    "instruction": "Provide a concise technical explanation suitable for an electronics student.",
+    "question": "Why is a BJT considered a current-controlled device while a MOSFET is considered voltage-controlled?",
+    "answer": "A BJT's output current is primarily controlled by the input base current flowing into the base-emitter junction, whereas a MOSFET's output current is controlled by the gate-source voltage with essentially no steady-state gate current, since the gate is insulated from the channel."
+  },
+  {
+    "id": 134,
+    "topic": "BJTs",
+    "difficulty": "intermediate",
+    "instruction": "Answer the following electronics question in a way an undergraduate would understand.",
+    "question": "Why does the common-base configuration have a voltage gain but no current gain?",
+    "answer": "In common-base, the output (collector) current is always slightly less than the input (emitter) current because of the alpha factor being just under 1, so there's no current amplification, but because the output impedance is high and input impedance is low, voltage gain can still be substantial."
+  },
+  {
+    "id": 135,
+    "topic": "BJTs",
+    "difficulty": "intermediate",
+    "instruction": "Explain this electronics concept to an undergraduate student.",
+    "question": "Why is the common-collector configuration called an 'emitter follower'?",
+    "answer": "The output, taken at the emitter, follows the input voltage at the base almost exactly (offset by the base-emitter drop), because the voltage gain is close to one, hence the name emitter follower."
+  },
+  {
+    "id": 136,
+    "topic": "BJTs",
+    "difficulty": "intermediate",
+    "instruction": "Give a clear conceptual explanation of the following electronics question.",
+    "question": "Why does increasing temperature generally decrease a BJT's base-emitter turn-on voltage?",
+    "answer": "Similar to a diode, the base-emitter junction's forward voltage for a given current decreases with temperature because the thermal voltage and intrinsic carrier concentration both increase, making it easier for current to flow at lower applied voltage."
+  },
+  {
+    "id": 137,
+    "topic": "BJTs",
+    "difficulty": "intermediate",
+    "instruction": "Explain this concept as if you were tutoring an undergraduate engineering student.",
+    "question": "Why is the input impedance at the base of a BJT typically much higher than at the emitter?",
+    "answer": "Looking into the base, the impedance is roughly beta times the emitter's intrinsic resistance because the base current is amplified by beta relative to the emitter, making small base current changes correspond to larger effective input impedance."
+  },
+  {
+    "id": 138,
+    "topic": "BJTs",
+    "difficulty": "intermediate",
+    "instruction": "Provide a concise technical explanation suitable for an electronics student.",
+    "question": "Why can't a BJT be turned on instantly when switching from cutoff to saturation?",
+    "answer": "Charge carriers must first be injected across the junctions and diffuse through the base, and if driven into deep saturation, excess stored charge must also be removed when turning off, both of which take a finite amount of time and limit switching speed."
+  },
+  {
+    "id": 139,
+    "topic": "BJTs",
+    "difficulty": "intermediate",
+    "instruction": "Answer the following electronics question in a way an undergraduate would understand.",
+    "question": "Why is a Darlington pair used to increase effective current gain?",
+    "answer": "Connecting two BJTs so that the emitter current of the first drives the base of the second effectively multiplies their individual betas together, producing a much higher overall current gain than a single transistor could achieve."
+  },
+  {
+    "id": 140,
+    "topic": "BJTs",
+    "difficulty": "intermediate",
+    "instruction": "Explain this electronics concept to an undergraduate student.",
+    "question": "Why does a BJT amplifier's output signal become distorted if the input signal swing is too large?",
+    "answer": "If the signal pushes the transistor out of the active region into cutoff or saturation during part of the cycle, the output no longer follows a linear relationship with the input, clipping the waveform and introducing distortion."
+  },
+  {
+    "id": 141,
+    "topic": "BJTs",
+    "difficulty": "intermediate",
+    "instruction": "Give a clear conceptual explanation of the following electronics question.",
+    "question": "Why is it important to select a quiescent (DC) operating point near the middle of the active region for a linear amplifier?",
+    "answer": "Centering the operating point maximizes the available symmetric voltage swing before the transistor is driven into cutoff on one side or saturation on the other, minimizing distortion for large signal swings."
+  },
+  {
+    "id": 142,
+    "topic": "BJTs",
+    "difficulty": "applied",
+    "instruction": "Explain this concept as if you were tutoring an undergraduate engineering student.",
+    "question": "A BJT has a base current of 20 microamps and a beta of 150. What is the collector current?",
+    "answer": "Using Ic = beta x Ib, the collector current is 150 x 20 microamps = 3 mA."
+  },
+  {
+    "id": 143,
+    "topic": "BJTs",
+    "difficulty": "applied",
+    "instruction": "Provide a concise technical explanation suitable for an electronics student.",
+    "question": "Explain step-by-step how to determine whether a BJT is in cutoff, active, or saturation given a circuit's voltages.",
+    "answer": "First, check the base-emitter junction: if it isn't forward biased (VBE below about 0.6 to 0.7 V), the transistor is in cutoff. Second, if VBE is at the forward-bias threshold, check the base-collector junction: if it is reverse biased, the transistor is in the active region. Third, if the base-collector junction is also forward biased (collector voltage close to or below the base voltage), the transistor is in saturation."
+  },
+  {
+    "id": 144,
+    "topic": "BJTs",
+    "difficulty": "applied",
+    "instruction": "Answer the following electronics question in a way an undergraduate would understand.",
+    "question": "Compare using a BJT in the active region versus in saturation for a switching application.",
+    "answer": "Using a BJT in the active region as a 'switch' wastes power because both voltage and current can be significant, producing more heat and slower, less definitive on/off states. Using it in saturation for switching minimizes voltage drop and power loss, giving a clean, low-resistance 'on' state more suitable for digital switching."
+  },
+  {
+    "id": 145,
+    "topic": "BJTs",
+    "difficulty": "applied",
+    "instruction": "Explain this electronics concept to an undergraduate student.",
+    "question": "A common-emitter amplifier has a collector resistor of 2 kOhm and is biased with a collector current of 1 mA. Estimate the DC voltage drop across the collector resistor.",
+    "answer": "Using Ohm's Law, the voltage drop is I x R = 1 mA x 2 kOhm = 2 V."
+  },
+  {
+    "id": 146,
+    "topic": "BJTs",
+    "difficulty": "applied",
+    "instruction": "Give a clear conceptual explanation of the following electronics question.",
+    "question": "What happens to a BJT's collector current if the base-emitter voltage is increased slightly while staying in the active region?",
+    "answer": "Because the base-emitter junction behaves like a diode, a small increase in VBE causes an exponential increase in collector current, following the transistor's forward-active current equation, similar to how diode current responds to changes in forward voltage."
+  },
+  {
+    "id": 147,
+    "topic": "BJTs",
+    "difficulty": "applied",
+    "instruction": "Explain this concept as if you were tutoring an undergraduate engineering student.",
+    "question": "Explain with an example how an emitter follower can be used as a buffer between a high-impedance source and a low-impedance load.",
+    "answer": "Suppose a sensor has high output impedance and needs to drive a low-impedance speaker. Connecting the sensor to the base of an emitter-follower BJT allows the high input impedance at the base to avoid loading down the sensor, while the low output impedance at the emitter can efficiently drive the low-impedance speaker, preserving the signal's voltage level."
+  },
+  {
+    "id": 148,
+    "topic": "BJTs",
+    "difficulty": "applied",
+    "instruction": "Provide a concise technical explanation suitable for an electronics student.",
+    "question": "A transistor switch driving an LED has a base resistor of 10 kOhm and a 5 V logic signal. If VBE is 0.7 V, what is the base current?",
+    "answer": "The voltage across the base resistor is 5 V - 0.7 V = 4.3 V. Using Ohm's Law, the base current is 4.3 V / 10 kOhm = 0.43 mA."
+  },
+  {
+    "id": 149,
+    "topic": "BJTs",
+    "difficulty": "applied",
+    "instruction": "Answer the following electronics question in a way an undergraduate would understand.",
+    "question": "How would you design a simple biasing network to keep a BJT in the active region despite variations in beta?",
+    "answer": "You would typically use a voltage divider at the base combined with an emitter resistor, choosing resistor values so the base voltage is set mostly by the divider rather than the base current, which makes the emitter current (and therefore collector current) largely independent of beta variation."
+  },
+  {
+    "id": 150,
+    "topic": "BJTs",
+    "difficulty": "applied",
+    "instruction": "Explain this electronics concept to an undergraduate student.",
+    "question": "What happens when the collector resistor in a common-emitter amplifier is too large for the given supply voltage and bias current?",
+    "answer": "If the resistor is too large, the DC voltage drop across it can exceed the supply voltage budget, pushing the transistor out of the active region and into saturation, which clips the output signal and reduces usable gain."
+  },
+  {
+    "id": 151,
+    "topic": "BJTs",
+    "difficulty": "applied",
+    "instruction": "Give a clear conceptual explanation of the following electronics question.",
+    "question": "Compare NPN and PNP transistors in terms of typical circuit usage.",
+    "answer": "NPN transistors are more commonly used because electron mobility is higher than hole mobility, giving better high-frequency performance, and they're often used to switch loads connected to ground. PNP transistors are typically used when the load needs to be switched from the positive supply rail, such as in complementary push-pull output stages alongside NPN transistors."
+  },
+  {
+    "id": 152,
+    "topic": "MOSFETs",
+    "difficulty": "basic",
+    "instruction": "Explain this concept as if you were tutoring an undergraduate engineering student.",
+    "question": "What is a MOSFET?",
+    "answer": "A MOSFET (Metal-Oxide-Semiconductor Field-Effect Transistor) is a three- or four-terminal device that controls current flow between its drain and source using an electric field created by the gate voltage, with the gate insulated from the channel by a thin oxide layer."
+  },
+  {
+    "id": 153,
+    "topic": "MOSFETs",
+    "difficulty": "basic",
+    "instruction": "Provide a concise technical explanation suitable for an electronics student.",
+    "question": "What are the main terminals of a MOSFET?",
+    "answer": "The main terminals of a MOSFET are the gate, drain, source, and body (substrate), though the body is often internally connected to the source in discrete devices."
+  },
+  {
+    "id": 154,
+    "topic": "MOSFETs",
+    "difficulty": "basic",
+    "instruction": "Answer the following electronics question in a way an undergraduate would understand.",
+    "question": "What is the difference between an enhancement-mode and depletion-mode MOSFET?",
+    "answer": "An enhancement-mode MOSFET has no conducting channel at zero gate voltage and requires a sufficient gate voltage to create one, while a depletion-mode MOSFET has a conducting channel by default that can be reduced or 'depleted' by an applied gate voltage."
+  },
+  {
+    "id": 155,
+    "topic": "MOSFETs",
+    "difficulty": "basic",
+    "instruction": "Explain this electronics concept to an undergraduate student.",
+    "question": "What is threshold voltage in a MOSFET?",
+    "answer": "Threshold voltage is the minimum gate-source voltage needed to form a conducting channel between the drain and source in an enhancement-mode MOSFET."
+  },
+  {
+    "id": 156,
+    "topic": "MOSFETs",
+    "difficulty": "basic",
+    "instruction": "Give a clear conceptual explanation of the following electronics question.",
+    "question": "What is the difference between an NMOS and a PMOS transistor?",
+    "answer": "An NMOS transistor uses an n-type channel formed in a p-type substrate and conducts when a positive gate voltage attracts electrons, while a PMOS transistor uses a p-type channel formed in an n-type substrate and conducts when a negative gate voltage attracts holes."
+  },
+  {
+    "id": 157,
+    "topic": "MOSFETs",
+    "difficulty": "basic",
+    "instruction": "Explain this concept as if you were tutoring an undergraduate engineering student.",
+    "question": "Why doesn't a MOSFET's gate draw significant current in steady state?",
+    "answer": "The gate is separated from the channel by a thin insulating oxide layer, so no DC current can flow into the gate; the gate voltage instead controls the channel through an electric field."
+  },
+  {
+    "id": 158,
+    "topic": "MOSFETs",
+    "difficulty": "basic",
+    "instruction": "Provide a concise technical explanation suitable for an electronics student.",
+    "question": "What is the triode (linear) region of a MOSFET?",
+    "answer": "The triode region is the operating mode where drain-source voltage is small relative to the overdrive voltage, and the MOSFET behaves approximately like a voltage-controlled resistor."
+  },
+  {
+    "id": 159,
+    "topic": "MOSFETs",
+    "difficulty": "basic",
+    "instruction": "Answer the following electronics question in a way an undergraduate would understand.",
+    "question": "What is the saturation region of a MOSFET?",
+    "answer": "The saturation region is the operating mode where drain-source voltage exceeds the overdrive voltage, and drain current becomes largely independent of drain-source voltage, instead being controlled mainly by gate-source voltage."
+  },
+  {
+    "id": 160,
+    "topic": "MOSFETs",
+    "difficulty": "basic",
+    "instruction": "Explain this electronics concept to an undergraduate student.",
+    "question": "What is CMOS technology?",
+    "answer": "CMOS (Complementary Metal-Oxide-Semiconductor) technology uses paired NMOS and PMOS transistors together to build logic gates that consume very little static power, since one of the pair is always off in steady state."
+  },
+  {
+    "id": 161,
+    "topic": "MOSFETs",
+    "difficulty": "basic",
+    "instruction": "Give a clear conceptual explanation of the following electronics question.",
+    "question": "What is the body effect in a MOSFET?",
+    "answer": "The body effect is the change in threshold voltage that occurs when there is a voltage difference between the source and the body terminal, which effectively makes the threshold voltage a function of the source-body voltage rather than a fixed constant."
+  },
+  {
+    "id": 162,
+    "topic": "MOSFETs",
+    "difficulty": "basic",
+    "instruction": "Explain this concept as if you were tutoring an undergraduate engineering student.",
+    "question": "What is on-resistance (RDS(on)) in a MOSFET?",
+    "answer": "On-resistance is the resistance between drain and source when the MOSFET is fully turned on in the triode region, and lower on-resistance is desirable for efficient switching applications since it reduces power loss."
+  },
+  {
+    "id": 163,
+    "topic": "MOSFETs",
+    "difficulty": "basic",
+    "instruction": "Provide a concise technical explanation suitable for an electronics student.",
+    "question": "What is gate capacitance in a MOSFET?",
+    "answer": "Gate capacitance is the capacitance formed between the gate electrode and the channel/substrate due to the thin oxide layer, and it must be charged and discharged when switching the MOSFET, which limits switching speed."
+  },
+  {
+    "id": 164,
+    "topic": "MOSFETs",
+    "difficulty": "basic",
+    "instruction": "Answer the following electronics question in a way an undergraduate would understand.",
+    "question": "Explain a MOSFET briefly.",
+    "answer": "A MOSFET is a voltage-controlled switch where the voltage applied to an insulated gate determines whether (and how strongly) current can flow between the drain and source."
+  },
+  {
+    "id": 165,
+    "topic": "MOSFETs",
+    "difficulty": "basic",
+    "instruction": "Explain this electronics concept to an undergraduate student.",
+    "question": "What is overdrive voltage in a MOSFET?",
+    "answer": "Overdrive voltage is the amount by which the gate-source voltage exceeds the threshold voltage, and it determines how strongly the channel conducts in an enhancement-mode MOSFET."
+  },
+  {
+    "id": 166,
+    "topic": "MOSFETs",
+    "difficulty": "basic",
+    "instruction": "Give a clear conceptual explanation of the following electronics question.",
+    "question": "What does it mean for a MOSFET to be 'off'?",
+    "answer": "A MOSFET is off (in cutoff) when the gate-source voltage is below the threshold voltage, so no conducting channel forms and negligible current flows between drain and source."
+  },
+  {
+    "id": 167,
+    "topic": "MOSFETs",
+    "difficulty": "basic",
+    "instruction": "Explain this concept as if you were tutoring an undergraduate engineering student.",
+    "question": "What is a power MOSFET typically used for?",
+    "answer": "A power MOSFET is typically used for switching large currents efficiently in applications like motor drivers, switching power supplies, and voltage regulators, due to its low on-resistance and fast switching speed."
+  },
+  {
+    "id": 168,
+    "topic": "MOSFETs",
+    "difficulty": "basic",
+    "instruction": "Provide a concise technical explanation suitable for an electronics student.",
+    "question": "What is the channel in a MOSFET?",
+    "answer": "The channel is the thin conductive path that forms between the source and drain regions when the gate voltage creates an inversion layer, allowing current to flow through the device."
+  },
+  {
+    "id": 169,
+    "topic": "MOSFETs",
+    "difficulty": "basic",
+    "instruction": "Answer the following electronics question in a way an undergraduate would understand.",
+    "question": "What does N-channel mean in an NMOS transistor?",
+    "answer": "N-channel means the conducting path formed under the gate consists of electrons (n-type carriers), which are attracted to the surface by a positive gate voltage in an n-type inversion layer."
+  },
+  {
+    "id": 170,
+    "topic": "MOSFETs",
+    "difficulty": "basic",
+    "instruction": "Explain this electronics concept to an undergraduate student.",
+    "question": "What is the source terminal of a MOSFET?",
+    "answer": "The source terminal is the terminal from which majority carriers originate and enter the channel, serving as the reference point for measuring gate and drain voltages."
+  },
+  {
+    "id": 171,
+    "topic": "MOSFETs",
+    "difficulty": "basic",
+    "instruction": "Give a clear conceptual explanation of the following electronics question.",
+    "question": "What is the drain terminal of a MOSFET?",
+    "answer": "The drain terminal is the terminal where majority carriers exit the channel after flowing through it, and it's typically at a higher potential than the source for an NMOS device operating normally."
+  },
+  {
+    "id": 172,
+    "topic": "MOSFETs",
+    "difficulty": "intermediate",
+    "instruction": "Explain this concept as if you were tutoring an undergraduate engineering student.",
+    "question": "Why does a MOSFET's gate not conduct current in steady-state operation?",
+    "answer": "The gate electrode is separated from the semiconductor channel by a thin layer of insulating oxide, so there is no direct conductive path for DC current to flow into the gate; the gate instead influences the channel purely through electrostatic (capacitive) coupling."
+  },
+  {
+    "id": 173,
+    "topic": "MOSFETs",
+    "difficulty": "intermediate",
+    "instruction": "Provide a concise technical explanation suitable for an electronics student.",
+    "question": "Why is threshold voltage necessary before an enhancement-mode MOSFET conducts?",
+    "answer": "At low gate voltage, there aren't enough minority carriers pulled to the semiconductor surface to form a continuous conductive channel, so the gate voltage must exceed a certain threshold to invert the surface and create enough carrier density for current to flow."
+  },
+  {
+    "id": 174,
+    "topic": "MOSFETs",
+    "difficulty": "intermediate",
+    "instruction": "Answer the following electronics question in a way an undergraduate would understand.",
+    "question": "Why does drain current become nearly constant (saturate) at high drain-source voltage?",
+    "answer": "Once the drain-source voltage is large enough, the channel near the drain pinches off, meaning further increases in drain voltage are dropped mostly across the depleted pinch-off region rather than increasing current, so the current becomes primarily set by the gate overdrive rather than drain voltage."
+  },
+  {
+    "id": 175,
+    "topic": "MOSFETs",
+    "difficulty": "intermediate",
+    "instruction": "Explain this electronics concept to an undergraduate student.",
+    "question": "Why does the body effect change a MOSFET's threshold voltage?",
+    "answer": "When the source is at a different potential than the body, the depletion region under the gate widens or narrows depending on the source-body voltage, which changes the amount of charge needed to invert the channel and therefore shifts the threshold voltage."
+  },
+  {
+    "id": 176,
+    "topic": "MOSFETs",
+    "difficulty": "intermediate",
+    "instruction": "Give a clear conceptual explanation of the following electronics question.",
+    "question": "Why is a MOSFET considered a voltage-controlled device while a BJT is current-controlled?",
+    "answer": "A MOSFET's channel conductivity depends on the electric field set up by the gate-source voltage, with essentially zero steady-state gate current required, whereas a BJT requires an actual base current flowing through a forward-biased junction to sustain collector current."
+  },
+  {
+    "id": 177,
+    "topic": "MOSFETs",
+    "difficulty": "intermediate",
+    "instruction": "Explain this concept as if you were tutoring an undergraduate engineering student.",
+    "question": "Why is CMOS logic power-efficient compared to designs using only NMOS or only PMOS transistors?",
+    "answer": "In a CMOS gate, the NMOS and PMOS transistors are arranged so that in any steady logic state, one of the pair is off, blocking any DC current path from supply to ground, so static power dissipation is minimal except during switching transitions."
+  },
+  {
+    "id": 178,
+    "topic": "MOSFETs",
+    "difficulty": "intermediate",
+    "instruction": "Provide a concise technical explanation suitable for an electronics student.",
+    "question": "Why does gate capacitance limit how fast a MOSFET can switch?",
+    "answer": "Switching the MOSFET on or off requires charging or discharging the gate capacitance to change the gate voltage, and since this takes a finite amount of current and time (set by the driving circuit's current capability), higher gate capacitance directly slows down switching transitions."
+  },
+  {
+    "id": 179,
+    "topic": "MOSFETs",
+    "difficulty": "intermediate",
+    "instruction": "Answer the following electronics question in a way an undergraduate would understand.",
+    "question": "Why is on-resistance an important parameter for power MOSFETs?",
+    "answer": "Power dissipated in the MOSFET while conducting is proportional to the square of the current times the on-resistance, so a lower on-resistance directly reduces conduction losses and heat generation in high-current switching applications."
+  },
+  {
+    "id": 180,
+    "topic": "MOSFETs",
+    "difficulty": "intermediate",
+    "instruction": "Explain this electronics concept to an undergraduate student.",
+    "question": "Why does a MOSFET's channel behave like a resistor in the triode region but like a current source in saturation?",
+    "answer": "In the triode region, the channel remains continuous along its full length and its conductivity scales roughly linearly with drain-source voltage, resembling a resistor, while in saturation the channel pinches off near the drain, decoupling current from drain-source voltage and instead making it primarily set by gate-source voltage, resembling a current source."
+  },
+  {
+    "id": 181,
+    "topic": "MOSFETs",
+    "difficulty": "intermediate",
+    "instruction": "Give a clear conceptual explanation of the following electronics question.",
+    "question": "Why is the substrate (body) terminal of an NMOS transistor typically connected to the most negative supply voltage in a circuit?",
+    "answer": "Connecting the body to the most negative potential ensures that the body-to-source and body-to-drain junctions remain reverse biased across all normal operating conditions, preventing unwanted forward conduction through those parasitic diode junctions."
+  },
+  {
+    "id": 182,
+    "topic": "MOSFETs",
+    "difficulty": "intermediate",
+    "instruction": "Explain this concept as if you were tutoring an undergraduate engineering student.",
+    "question": "Why do MOSFETs generally have faster switching speeds than BJTs in many applications?",
+    "answer": "MOSFETs are majority-carrier devices controlled by an electric field, avoiding the minority-carrier storage and removal delays that limit BJT switching, though very high gate capacitance in large power MOSFETs can still limit speed if not driven with sufficient current."
+  },
+  {
+    "id": 183,
+    "topic": "MOSFETs",
+    "difficulty": "intermediate",
+    "instruction": "Provide a concise technical explanation suitable for an electronics student.",
+    "question": "Why does increasing the gate-source voltage increase drain current in the saturation region?",
+    "answer": "A larger gate-source voltage produces a larger overdrive voltage, which increases the channel's carrier density and conductivity, and since saturation current depends on the square of the overdrive voltage in the standard MOSFET model, drain current rises accordingly."
+  },
+  {
+    "id": 184,
+    "topic": "MOSFETs",
+    "difficulty": "intermediate",
+    "instruction": "Answer the following electronics question in a way an undergraduate would understand.",
+    "question": "Why is a parasitic diode present between the body and drain (or source) of a MOSFET?",
+    "answer": "The body and the drain/source regions form a PN junction inherently as part of the device's physical structure, so this junction behaves like a diode even though it's not an intentional design element, and it must be accounted for especially in power switching applications."
+  },
+  {
+    "id": 185,
+    "topic": "MOSFETs",
+    "difficulty": "intermediate",
+    "instruction": "Explain this electronics concept to an undergraduate student.",
+    "question": "Why can a MOSFET be used as a near-ideal voltage-controlled switch for digital logic?",
+    "answer": "In cutoff it presents an extremely high resistance (nearly open), and in strong triode conduction it presents a very low resistance (nearly closed), with negligible steady-state gate current needed to control this, closely approximating an ideal electronically-controlled switch."
+  },
+  {
+    "id": 186,
+    "topic": "MOSFETs",
+    "difficulty": "intermediate",
+    "instruction": "Give a clear conceptual explanation of the following electronics question.",
+    "question": "Why do short-channel MOSFETs experience effects like channel-length modulation that longer-channel devices don't show as strongly?",
+    "answer": "In short-channel devices, the pinch-off region near the drain represents a larger fraction of the total channel length, so changes in drain voltage have a proportionally larger effect on the effective channel length and therefore on drain current, an effect that's less pronounced when the channel is much longer."
+  },
+  {
+    "id": 187,
+    "topic": "MOSFETs",
+    "difficulty": "intermediate",
+    "instruction": "Explain this concept as if you were tutoring an undergraduate engineering student.",
+    "question": "Why does increasing temperature typically decrease a MOSFET's drain current at a fixed gate voltage (in most operating conditions)?",
+    "answer": "Higher temperature reduces carrier mobility in the channel, which lowers the current for a given gate and drain voltage, an effect that generally dominates over the (smaller) decrease in threshold voltage with temperature in most power MOSFETs."
+  },
+  {
+    "id": 188,
+    "topic": "MOSFETs",
+    "difficulty": "intermediate",
+    "instruction": "Provide a concise technical explanation suitable for an electronics student.",
+    "question": "Why is it important to limit gate voltage to avoid exceeding the oxide's breakdown rating?",
+    "answer": "The gate oxide is extremely thin, and if the gate voltage becomes too large, the electric field across the oxide can exceed its dielectric strength, causing permanent breakdown and destroying the device's ability to control the channel."
+  },
+  {
+    "id": 189,
+    "topic": "MOSFETs",
+    "difficulty": "intermediate",
+    "instruction": "Answer the following electronics question in a way an undergraduate would understand.",
+    "question": "Why does a MOSFET need a gate driver circuit in high-power switching applications?",
+    "answer": "The gate capacitance must be charged and discharged quickly to achieve fast switching, which requires more current than typical logic-level outputs can supply, so a dedicated gate driver circuit provides the higher current needed for fast, clean transitions."
+  },
+  {
+    "id": 190,
+    "topic": "MOSFETs",
+    "difficulty": "intermediate",
+    "instruction": "Explain this electronics concept to an undergraduate student.",
+    "question": "Why is PMOS generally slower than NMOS for the same physical dimensions?",
+    "answer": "Hole mobility in silicon is lower than electron mobility, so a PMOS transistor (which relies on hole conduction) generally has lower drive current and slower switching than an equivalently sized NMOS transistor (which relies on electron conduction)."
+  },
+  {
+    "id": 191,
+    "topic": "MOSFETs",
+    "difficulty": "intermediate",
+    "instruction": "Give a clear conceptual explanation of the following electronics question.",
+    "question": "Why is the square-law model (Id proportional to overdrive voltage squared) only an approximation for modern MOSFETs?",
+    "answer": "The square-law model assumes simplified long-channel behavior, but modern MOSFETs with very short channels experience effects like velocity saturation and mobility degradation that make the actual current-voltage relationship deviate from the simple square-law prediction, especially at high fields."
+  },
+  {
+    "id": 192,
+    "topic": "MOSFETs",
+    "difficulty": "applied",
+    "instruction": "Explain this concept as if you were tutoring an undergraduate engineering student.",
+    "question": "A MOSFET has a threshold voltage of 2 V and is biased with a gate-source voltage of 5 V. What is the overdrive voltage?",
+    "answer": "Overdrive voltage is VGS - Vth, so 5 V - 2 V = 3 V."
+  },
+  {
+    "id": 193,
+    "topic": "MOSFETs",
+    "difficulty": "applied",
+    "instruction": "Provide a concise technical explanation suitable for an electronics student.",
+    "question": "Explain step-by-step how to determine whether an NMOS transistor is in cutoff, triode, or saturation given VGS, Vth, and VDS.",
+    "answer": "First, compare VGS to Vth: if VGS is less than Vth, the transistor is in cutoff and no channel exists. Second, if VGS exceeds Vth, calculate the overdrive voltage VGS - Vth. Third, compare VDS to this overdrive voltage: if VDS is less than the overdrive voltage, the transistor is in the triode region, and if VDS is greater than or equal to the overdrive voltage, the transistor is in saturation."
+  },
+  {
+    "id": 194,
+    "topic": "MOSFETs",
+    "difficulty": "applied",
+    "instruction": "Answer the following electronics question in a way an undergraduate would understand.",
+    "question": "Compare using a MOSFET versus a BJT as a switch for a high-current motor driver.",
+    "answer": "A MOSFET is generally preferred for high-current switching because its gate requires essentially no steady-state drive current and it can achieve very low on-resistance, minimizing conduction losses, whereas a BJT requires continuous base current proportional to the load current and has a larger saturation voltage drop, generally leading to more power loss."
+  },
+  {
+    "id": 195,
+    "topic": "MOSFETs",
+    "difficulty": "applied",
+    "instruction": "Explain this electronics concept to an undergraduate student.",
+    "question": "What happens to a MOSFET's drain current if the drain-source voltage is increased well beyond the overdrive voltage while gate-source voltage stays fixed?",
+    "answer": "Once the transistor is in saturation, further increases in drain-source voltage have only a small effect on drain current (due to channel-length modulation), so the current stays approximately constant rather than continuing to rise proportionally."
+  },
+  {
+    "id": 196,
+    "topic": "MOSFETs",
+    "difficulty": "applied",
+    "instruction": "Give a clear conceptual explanation of the following electronics question.",
+    "question": "Explain with an example how CMOS inverters use both NMOS and PMOS transistors together.",
+    "answer": "In a CMOS inverter, a PMOS transistor connects the output to the supply voltage and an NMOS transistor connects the output to ground, with both gates tied to the input. When the input is low, the PMOS turns on and the NMOS turns off, pulling the output high; when the input is high, the roles reverse, pulling the output low, and in neither steady state is there a direct current path from supply to ground."
+  },
+  {
+    "id": 197,
+    "topic": "MOSFETs",
+    "difficulty": "applied",
+    "instruction": "Explain this concept as if you were tutoring an undergraduate engineering student.",
+    "question": "A power MOSFET has an on-resistance of 20 milliohms and carries 5 A. Estimate the conduction power loss.",
+    "answer": "Power loss is I squared times R, so (5 A)^2 x 0.020 ohm = 25 x 0.020 = 0.5 W."
+  },
+  {
+    "id": 198,
+    "topic": "MOSFETs",
+    "difficulty": "applied",
+    "instruction": "Provide a concise technical explanation suitable for an electronics student.",
+    "question": "How would you choose between an enhancement-mode and depletion-mode MOSFET for a circuit that must default to 'off' when unpowered?",
+    "answer": "You would choose an enhancement-mode MOSFET, since it has no conducting channel until a sufficient gate voltage is applied, ensuring the device stays off by default, whereas a depletion-mode device conducts by default and would need an active gate voltage to turn off."
+  },
+  {
+    "id": 199,
+    "topic": "MOSFETs",
+    "difficulty": "applied",
+    "instruction": "Answer the following electronics question in a way an undergraduate would understand.",
+    "question": "What happens when the gate voltage of a MOSFET exceeds its maximum rated gate-source voltage?",
+    "answer": "Exceeding the maximum rated gate-source voltage risks breaking down the thin gate oxide layer, which can permanently damage the device and destroy its ability to control the channel, so gate voltage must be kept within the manufacturer's specified limits."
+  },
+  {
+    "id": 200,
+    "topic": "MOSFETs",
+    "difficulty": "applied",
+    "instruction": "Explain this electronics concept to an undergraduate student.",
+    "question": "Compare the switching losses of a MOSFET with high gate capacitance versus low gate capacitance in a high-frequency converter.",
+    "answer": "A MOSFET with high gate capacitance requires more charge (and therefore more time or drive current) to switch states, leading to greater switching losses at high frequencies, while a MOSFET with lower gate capacitance can switch faster with less energy wasted during each transition, making it better suited for high-frequency operation."
+  },
+  {
+    "id": 201,
+    "topic": "MOSFETs",
+    "difficulty": "applied",
+    "instruction": "Give a clear conceptual explanation of the following electronics question.",
+    "question": "Explain step-by-step why a MOSFET used as a switch is turned fully on (deep into triode) rather than left in saturation.",
+    "answer": "First, in saturation, the drain-source voltage can be relatively large even while conducting substantial current, meaning significant power is dissipated as heat. Second, driving the gate voltage well above threshold pushes the device into the triode region, where on-resistance is minimized. Third, with minimal on-resistance, the voltage drop across the device for a given current is small, which minimizes conduction power loss, making deep triode operation the efficient choice for switching applications."
+  },
+  {
+    "id": 202,
+    "topic": "Op-amps",
+    "difficulty": "basic",
+    "instruction": "Explain this concept as if you were tutoring an undergraduate engineering student.",
+    "question": "What is an operational amplifier (op-amp)?",
+    "answer": "An operational amplifier is a high-gain electronic voltage amplifier with a differential input (inverting and non-inverting terminals) and a single-ended output, widely used as a building block for analog circuits like amplifiers, filters, and comparators."
+  },
+  {
+    "id": 203,
+    "topic": "Op-amps",
+    "difficulty": "basic",
+    "instruction": "Provide a concise technical explanation suitable for an electronics student.",
+    "question": "What are the two input terminals of an op-amp called?",
+    "answer": "The two input terminals of an op-amp are called the inverting input (marked with a minus sign) and the non-inverting input (marked with a plus sign)."
+  },
+  {
+    "id": 204,
+    "topic": "Op-amps",
+    "difficulty": "basic",
+    "instruction": "Answer the following electronics question in a way an undergraduate would understand.",
+    "question": "What is the ideal open-loop gain of an op-amp?",
+    "answer": "The ideal open-loop gain of an op-amp is assumed to be infinite, meaning even a tiny voltage difference between its inputs would produce an enormous output, which is why op-amps are almost always used with negative feedback."
+  },
+  {
+    "id": 205,
+    "topic": "Op-amps",
+    "difficulty": "basic",
+    "instruction": "Explain this electronics concept to an undergraduate student.",
+    "question": "What is the ideal input impedance of an op-amp?",
+    "answer": "The ideal input impedance of an op-amp is assumed to be infinite, meaning no current flows into either input terminal."
+  },
+  {
+    "id": 206,
+    "topic": "Op-amps",
+    "difficulty": "basic",
+    "instruction": "Give a clear conceptual explanation of the following electronics question.",
+    "question": "What is the ideal output impedance of an op-amp?",
+    "answer": "The ideal output impedance of an op-amp is assumed to be zero, meaning the output voltage doesn't change regardless of how much current is drawn from it."
+  },
+  {
+    "id": 207,
+    "topic": "Op-amps",
+    "difficulty": "basic",
+    "instruction": "Explain this concept as if you were tutoring an undergraduate engineering student.",
+    "question": "What is the 'virtual short' concept in op-amp analysis?",
+    "answer": "The virtual short concept states that, due to negative feedback and very high open-loop gain, the voltage difference between the two input terminals of an ideal op-amp is essentially zero, even though no actual current flows between them."
+  },
+  {
+    "id": 208,
+    "topic": "Op-amps",
+    "difficulty": "basic",
+    "instruction": "Provide a concise technical explanation suitable for an electronics student.",
+    "question": "What is negative feedback in the context of op-amp circuits?",
+    "answer": "Negative feedback means a portion of the output signal is fed back to the inverting input, which stabilizes the circuit's gain and reduces distortion, and is what allows op-amps to be used predictably despite their extremely high open-loop gain."
+  },
+  {
+    "id": 209,
+    "topic": "Op-amps",
+    "difficulty": "basic",
+    "instruction": "Answer the following electronics question in a way an undergraduate would understand.",
+    "question": "What is the gain formula for a non-inverting op-amp amplifier?",
+    "answer": "The gain of a non-inverting amplifier is 1 + (Rf / Rin), where Rf is the feedback resistor and Rin is the resistor connecting the inverting input to ground."
+  },
+  {
+    "id": 210,
+    "topic": "Op-amps",
+    "difficulty": "basic",
+    "instruction": "Explain this electronics concept to an undergraduate student.",
+    "question": "What is the gain formula for an inverting op-amp amplifier?",
+    "answer": "The gain of an inverting amplifier is -(Rf / Rin), where Rf is the feedback resistor and Rin is the input resistor, with the negative sign indicating the output is inverted relative to the input."
+  },
+  {
+    "id": 211,
+    "topic": "Op-amps",
+    "difficulty": "basic",
+    "instruction": "Give a clear conceptual explanation of the following electronics question.",
+    "question": "What is a summing amplifier?",
+    "answer": "A summing amplifier is an op-amp circuit, typically in the inverting configuration, that produces an output proportional to the weighted sum of multiple input voltages, each scaled by its own input resistor."
+  },
+  {
+    "id": 212,
+    "topic": "Op-amps",
+    "difficulty": "basic",
+    "instruction": "Explain this concept as if you were tutoring an undergraduate engineering student.",
+    "question": "What is a difference (differential) amplifier?",
+    "answer": "A difference amplifier is an op-amp circuit that outputs a voltage proportional to the difference between two input voltages, using a combination of resistors at both the inverting and non-inverting inputs."
+  },
+  {
+    "id": 213,
+    "topic": "Op-amps",
+    "difficulty": "basic",
+    "instruction": "Provide a concise technical explanation suitable for an electronics student.",
+    "question": "What is an integrator circuit using an op-amp?",
+    "answer": "An integrator is an op-amp circuit, typically using a feedback capacitor instead of a resistor, that produces an output proportional to the time integral of the input voltage."
+  },
+  {
+    "id": 214,
+    "topic": "Op-amps",
+    "difficulty": "basic",
+    "instruction": "Answer the following electronics question in a way an undergraduate would understand.",
+    "question": "What is a differentiator circuit using an op-amp?",
+    "answer": "A differentiator is an op-amp circuit, typically using an input capacitor instead of a resistor, that produces an output proportional to the rate of change (derivative) of the input voltage."
+  },
+  {
+    "id": 215,
+    "topic": "Op-amps",
+    "difficulty": "basic",
+    "instruction": "Explain this electronics concept to an undergraduate student.",
+    "question": "What is slew rate in an op-amp?",
+    "answer": "Slew rate is the maximum rate at which an op-amp's output voltage can change over time, usually specified in volts per microsecond, and it limits how fast the output can respond to rapidly changing input signals."
+  },
+  {
+    "id": 216,
+    "topic": "Op-amps",
+    "difficulty": "basic",
+    "instruction": "Give a clear conceptual explanation of the following electronics question.",
+    "question": "What is offset voltage in an op-amp?",
+    "answer": "Offset voltage is the small input voltage difference required to make the output of a real (non-ideal) op-amp equal to zero, arising from manufacturing mismatches in the internal transistors."
+  },
+  {
+    "id": 217,
+    "topic": "Op-amps",
+    "difficulty": "basic",
+    "instruction": "Explain this concept as if you were tutoring an undergraduate engineering student.",
+    "question": "What is a comparator, and how does it relate to op-amps?",
+    "answer": "A comparator is a circuit that outputs a high or low signal depending on which of its two inputs is larger, and it can be built using an op-amp operated without negative feedback, letting the open-loop gain drive the output to one of its rail limits."
+  },
+  {
+    "id": 218,
+    "topic": "Op-amps",
+    "difficulty": "basic",
+    "instruction": "Provide a concise technical explanation suitable for an electronics student.",
+    "question": "What does it mean for an op-amp's output to be 'saturated' or 'railed'?",
+    "answer": "An op-amp's output is saturated or railed when it reaches its maximum or minimum possible output voltage, typically close to its positive or negative supply voltage, and can no longer increase or decrease further even if the input demands it."
+  },
+  {
+    "id": 219,
+    "topic": "Op-amps",
+    "difficulty": "basic",
+    "instruction": "Answer the following electronics question in a way an undergraduate would understand.",
+    "question": "What is a voltage follower (buffer) using an op-amp?",
+    "answer": "A voltage follower is an op-amp configured with the output directly connected to the inverting input and the signal applied to the non-inverting input, producing an output that follows the input voltage with a gain of one while providing high input impedance and low output impedance."
+  },
+  {
+    "id": 220,
+    "topic": "Op-amps",
+    "difficulty": "basic",
+    "instruction": "Explain this electronics concept to an undergraduate student.",
+    "question": "Explain an op-amp briefly.",
+    "answer": "An op-amp is a high-gain amplifier building block that, combined with feedback components, can be configured to perform tasks like amplification, summing, integration, and comparison."
+  },
+  {
+    "id": 221,
+    "topic": "Op-amps",
+    "difficulty": "basic",
+    "instruction": "Give a clear conceptual explanation of the following electronics question.",
+    "question": "What is common-mode rejection in an op-amp?",
+    "answer": "Common-mode rejection is an op-amp's ability to ignore signals that are common to both of its inputs (such as noise present equally on both lines) while still amplifying the difference between them."
+  },
+  {
+    "id": 222,
+    "topic": "Op-amps",
+    "difficulty": "intermediate",
+    "instruction": "Explain this concept as if you were tutoring an undergraduate engineering student.",
+    "question": "Why is negative feedback essential for using op-amps in linear amplifier circuits?",
+    "answer": "Because the open-loop gain of an op-amp is extremely high (ideally infinite), even a tiny input difference would drive the output to its supply rails without feedback; negative feedback continuously adjusts the effective input difference toward zero, making the closed-loop gain predictable and set by external resistors rather than the op-amp's own imprecise open-loop gain."
+  },
+  {
+    "id": 223,
+    "topic": "Op-amps",
+    "difficulty": "intermediate",
+    "instruction": "Provide a concise technical explanation suitable for an electronics student.",
+    "question": "Why does the virtual short concept hold even though no current flows between the op-amp's inputs?",
+    "answer": "With negative feedback in place and very high open-loop gain, any nonzero voltage difference between the inputs would be amplified enormously and drive the output to correct itself through the feedback path, so in a stable operating condition the input difference settles extremely close to zero, even though this is enforced by the feedback loop rather than by any direct current path between the inputs."
+  },
+  {
+    "id": 224,
+    "topic": "Op-amps",
+    "difficulty": "intermediate",
+    "instruction": "Answer the following electronics question in a way an undergraduate would understand.",
+    "question": "Why is the non-inverting amplifier's gain always at least 1, while the inverting amplifier's gain can be less than 1?",
+    "answer": "The non-inverting amplifier's gain formula is 1 + (Rf/Rin), which is always greater than or equal to 1 regardless of resistor values, while the inverting amplifier's gain formula is -(Rf/Rin), which can be made smaller than 1 in magnitude simply by choosing Rf smaller than Rin."
+  },
+  {
+    "id": 225,
+    "topic": "Op-amps",
+    "difficulty": "intermediate",
+    "instruction": "Explain this electronics concept to an undergraduate student.",
+    "question": "Why does the inverting amplifier configuration produce an output that is 180 degrees out of phase with the input?",
+    "answer": "In the inverting configuration, the non-inverting input is grounded, so the virtual short forces the inverting input to also sit near 0 V; as input current flows through the input resistor toward this virtual ground, the feedback resistor must carry an equal but oppositely directed current to maintain that virtual ground, which requires the output to swing in the opposite direction from the input."
+  },
+  {
+    "id": 226,
+    "topic": "Op-amps",
+    "difficulty": "intermediate",
+    "instruction": "Give a clear conceptual explanation of the following electronics question.",
+    "question": "Why does an op-amp integrator use a capacitor in the feedback path instead of a resistor?",
+    "answer": "A capacitor's charge (and therefore voltage) accumulates over time in proportion to the current flowing into it, so placing it in the feedback path causes the output voltage to represent the accumulated (integrated) input current over time, which a resistor cannot do since it responds instantaneously rather than accumulating charge."
+  },
+  {
+    "id": 227,
+    "topic": "Op-amps",
+    "difficulty": "intermediate",
+    "instruction": "Explain this concept as if you were tutoring an undergraduate engineering student.",
+    "question": "Why can a differentiator circuit be sensitive to high-frequency noise?",
+    "answer": "A differentiator's gain increases with frequency because the impedance of the input capacitor decreases as frequency rises, meaning high-frequency noise (even small amplitude) gets amplified disproportionately compared to the desired lower-frequency signal, which can make the output noisy or unstable."
+  },
+  {
+    "id": 228,
+    "topic": "Op-amps",
+    "difficulty": "intermediate",
+    "instruction": "Provide a concise technical explanation suitable for an electronics student.",
+    "question": "Why does slew rate limit an op-amp's performance for large, fast-changing signals even if its bandwidth would otherwise be sufficient?",
+    "answer": "Slew rate is a large-signal limitation caused by the maximum current available to charge internal compensation capacitors, so even if small-signal bandwidth theoretically supports a certain frequency, a large-amplitude fast-changing signal can still be limited to a fixed maximum voltage-change rate, causing distorted, ramp-like output instead of a faithful reproduction."
+  },
+  {
+    "id": 229,
+    "topic": "Op-amps",
+    "difficulty": "intermediate",
+    "instruction": "Answer the following electronics question in a way an undergraduate would understand.",
+    "question": "Why do real op-amps have a nonzero offset voltage while ideal op-amps assume zero?",
+    "answer": "Real op-amps are built from transistors that can never be perfectly matched due to manufacturing variation, so a small inherent voltage difference is needed at the input to bring the output to zero, unlike the idealized model, which assumes perfectly symmetric internal components."
+  },
+  {
+    "id": 230,
+    "topic": "Op-amps",
+    "difficulty": "intermediate",
+    "instruction": "Explain this electronics concept to an undergraduate student.",
+    "question": "Why is high common-mode rejection important in a difference amplifier used to measure small signals in noisy environments?",
+    "answer": "If a small desired signal, like a sensor's output, is riding on top of a much larger noise voltage common to both input lines, high common-mode rejection ensures the amplifier suppresses that shared noise while still faithfully amplifying the actual difference signal, which is what a difference amplifier is designed to extract."
+  },
+  {
+    "id": 231,
+    "topic": "Op-amps",
+    "difficulty": "intermediate",
+    "instruction": "Give a clear conceptual explanation of the following electronics question.",
+    "question": "Why does a voltage follower have high input impedance and low output impedance despite having a voltage gain of only 1?",
+    "answer": "The high input impedance comes from the ideal (very large) input impedance of the op-amp itself, and the low output impedance comes from the op-amp's inherently low output impedance combined with the correcting action of the feedback loop, both independent of the fact that the closed-loop voltage gain happens to be 1."
+  },
+  {
+    "id": 232,
+    "topic": "Op-amps",
+    "difficulty": "intermediate",
+    "instruction": "Explain this concept as if you were tutoring an undergraduate engineering student.",
+    "question": "Why can't an op-amp's output exceed its supply voltage rails?",
+    "answer": "The op-amp's internal output transistors are powered by the supply rails, so they physically cannot produce an output voltage beyond what the supply can provide, meaning the output saturates (rails) at or near the supply limits regardless of how large the theoretical gain calculation suggests it should be."
+  },
+  {
+    "id": 233,
+    "topic": "Op-amps",
+    "difficulty": "intermediate",
+    "instruction": "Provide a concise technical explanation suitable for an electronics student.",
+    "question": "Why does removing feedback from an op-amp turn it into a comparator rather than a linear amplifier?",
+    "answer": "Without feedback, the op-amp operates at its full open-loop gain, which is so large that any tiny input voltage difference drives the output almost instantly to one of its supply rails, producing a binary high/low output that indicates which input is larger rather than a proportionally scaled linear output."
+  },
+  {
+    "id": 234,
+    "topic": "Op-amps",
+    "difficulty": "intermediate",
+    "instruction": "Answer the following electronics question in a way an undergraduate would understand.",
+    "question": "Why is the summing amplifier's output a weighted sum rather than a simple average of its inputs?",
+    "answer": "Each input contributes to the output current at the virtual ground node in proportion to its own input resistor value, and the feedback resistor scales the total combined current into an output voltage, so different input resistor values naturally produce different weighting for each input rather than an unweighted average."
+  },
+  {
+    "id": 235,
+    "topic": "Op-amps",
+    "difficulty": "intermediate",
+    "instruction": "Explain this electronics concept to an undergraduate student.",
+    "question": "Why does an op-amp's finite bandwidth cause gain to decrease at higher frequencies (gain-bandwidth product)?",
+    "answer": "Internal compensation capacitors are typically added to op-amps to ensure stability with feedback, and these capacitors cause the open-loop gain to roll off as frequency increases, which means the closed-loop gain at higher frequencies is limited by the fixed gain-bandwidth product characteristic of the device."
+  },
+  {
+    "id": 236,
+    "topic": "Op-amps",
+    "difficulty": "intermediate",
+    "instruction": "Give a clear conceptual explanation of the following electronics question.",
+    "question": "Why is it important that op-amp input bias currents are small but not truly zero in practice?",
+    "answer": "Real op-amps require a tiny bias current to operate their internal input transistors, so this small current flowing through external resistors can create additional offset voltages at the output, which is why designers often balance resistances at both inputs to minimize this effect."
+  },
+  {
+    "id": 237,
+    "topic": "Op-amps",
+    "difficulty": "intermediate",
+    "instruction": "Explain this concept as if you were tutoring an undergraduate engineering student.",
+    "question": "Why does adding a resistor in the non-inverting input path help minimize bias current errors in real op-amp circuits?",
+    "answer": "Matching the equivalent resistance seen by both inputs means that the small bias currents flowing into each input produce similar voltage drops, which tend to cancel out in the differential comparison rather than contributing an uncompensated offset at the output."
+  },
+  {
+    "id": 238,
+    "topic": "Op-amps",
+    "difficulty": "intermediate",
+    "instruction": "Provide a concise technical explanation suitable for an electronics student.",
+    "question": "Why is the closed-loop gain of a feedback op-amp circuit largely independent of the op-amp's own open-loop gain, as long as open-loop gain is very high?",
+    "answer": "As open-loop gain approaches infinity, the closed-loop gain formula (derived from feedback analysis) converges to an expression determined almost entirely by the external feedback and input resistor ratio, since the required input voltage difference needed to sustain any finite output shrinks toward zero, making the op-amp's own imprecise open-loop gain value largely irrelevant to the final result."
+  },
+  {
+    "id": 239,
+    "topic": "Op-amps",
+    "difficulty": "intermediate",
+    "instruction": "Answer the following electronics question in a way an undergraduate would understand.",
+    "question": "Why might an op-amp circuit become unstable and oscillate if feedback is applied incorrectly?",
+    "answer": "If a portion of the output signal is fed back to the non-inverting input instead of the inverting input (positive feedback) unintentionally, or if phase shifts within the loop become large enough at some frequency, the feedback can reinforce rather than correct changes in the output, leading to sustained oscillation instead of stable amplification."
+  },
+  {
+    "id": 240,
+    "topic": "Op-amps",
+    "difficulty": "intermediate",
+    "instruction": "Explain this electronics concept to an undergraduate student.",
+    "question": "Why is the 'golden rule' framing (no current into inputs, zero voltage difference between inputs) only valid when negative feedback is present?",
+    "answer": "These rules depend on the amplifier actively adjusting its output through a feedback path to maintain a near-zero input difference; without feedback, there's nothing forcing the input difference toward zero, so the op-amp instead behaves as an open-loop comparator and the golden rules no longer apply."
+  },
+  {
+    "id": 241,
+    "topic": "Op-amps",
+    "difficulty": "applied",
+    "instruction": "Give a clear conceptual explanation of the following electronics question.",
+    "question": "A non-inverting amplifier has Rf = 9 kOhm and Rin = 1 kOhm. What is its gain?",
+    "answer": "Using the non-inverting gain formula, gain = 1 + (Rf/Rin) = 1 + (9 kOhm / 1 kOhm) = 1 + 9 = 10."
+  },
+  {
+    "id": 242,
+    "topic": "Op-amps",
+    "difficulty": "applied",
+    "instruction": "Explain this concept as if you were tutoring an undergraduate engineering student.",
+    "question": "An inverting amplifier has Rf = 20 kOhm and Rin = 4 kOhm, with a 0.5 V input signal. What is the output voltage?",
+    "answer": "Using the inverting gain formula, gain = -(Rf/Rin) = -(20 kOhm / 4 kOhm) = -5. The output voltage is gain x input = -5 x 0.5 V = -2.5 V."
+  },
+  {
+    "id": 243,
+    "topic": "Op-amps",
+    "difficulty": "applied",
+    "instruction": "Provide a concise technical explanation suitable for an electronics student.",
+    "question": "Explain step-by-step how to analyze an inverting amplifier circuit using the virtual short and virtual open concepts.",
+    "answer": "First, apply the virtual short rule: since the non-inverting input is grounded, the inverting input is also treated as being at approximately 0 V. Second, apply the virtual open rule: since no current flows into the op-amp's inputs, the current through the input resistor must equal the current through the feedback resistor. Third, express both currents in terms of the input voltage, output voltage, and resistor values, then solve the resulting equation for the output voltage in terms of the input voltage and resistor ratio."
+  },
+  {
+    "id": 244,
+    "topic": "Op-amps",
+    "difficulty": "applied",
+    "instruction": "Answer the following electronics question in a way an undergraduate would understand.",
+    "question": "Compare the inverting and non-inverting amplifier configurations in terms of input impedance.",
+    "answer": "The non-inverting configuration has very high input impedance because the signal connects directly to the op-amp's non-inverting input, which ideally draws no current. The inverting configuration has input impedance approximately equal to the input resistor value, since the signal source must drive current through that resistor toward the virtual ground, making it comparatively lower."
+  },
+  {
+    "id": 245,
+    "topic": "Op-amps",
+    "difficulty": "applied",
+    "instruction": "Explain this electronics concept to an undergraduate student.",
+    "question": "What happens to a comparator's output when the voltage at its non-inverting input rises above the voltage at its inverting input?",
+    "answer": "The output rapidly swings toward its positive supply rail because the open-loop gain amplifies the now-positive input difference to its maximum, saturating the output high until the input condition reverses."
+  },
+  {
+    "id": 246,
+    "topic": "Op-amps",
+    "difficulty": "applied",
+    "instruction": "Give a clear conceptual explanation of the following electronics question.",
+    "question": "A summing amplifier has two inputs of 1 V and 2 V, both through 10 kOhm resistors, with a feedback resistor of 10 kOhm. What is the output voltage?",
+    "answer": "Using the summing amplifier formula, output = -(Rf/R1)(V1) - (Rf/R2)(V2) = -(10k/10k)(1 V) - (10k/10k)(2 V) = -1 V - 2 V = -3 V."
+  },
+  {
+    "id": 247,
+    "topic": "Op-amps",
+    "difficulty": "applied",
+    "instruction": "Explain this concept as if you were tutoring an undergraduate engineering student.",
+    "question": "Explain with an example how an integrator circuit responds to a constant (DC) input voltage over time.",
+    "answer": "If a constant 1 V DC signal is applied to an integrator with a known RC time constant, the output voltage ramps linearly downward (for the standard inverting integrator) over time rather than settling at a fixed value, because the feedback capacitor continues accumulating charge as long as the constant input current keeps flowing, eventually saturating at the negative supply rail if left unchecked."
+  },
+  {
+    "id": 248,
+    "topic": "Op-amps",
+    "difficulty": "applied",
+    "instruction": "Provide a concise technical explanation suitable for an electronics student.",
+    "question": "How would you determine the required slew rate for an op-amp intended to amplify a 1 V peak sine wave at 100 kHz without distortion?",
+    "answer": "You would calculate the maximum rate of change of the sine wave, which is 2 x pi x frequency x peak amplitude, giving 2 x pi x 100,000 x 1 V, approximately 628,000 V/s or about 0.628 V/microsecond, and then choose an op-amp with a slew rate specification comfortably above this value."
+  },
+  {
+    "id": 249,
+    "topic": "Op-amps",
+    "difficulty": "applied",
+    "instruction": "Answer the following electronics question in a way an undergraduate would understand.",
+    "question": "What happens when both inputs of an op-amp comparator are driven to nearly the same voltage with significant noise present?",
+    "answer": "Because the open-loop gain is very high, even tiny noise fluctuations around the crossover point can cause the output to rapidly and repeatedly switch between high and low, a behavior often called chatter, which is why hysteresis (as in a Schmitt trigger) is often added in practical comparator designs."
+  },
+  {
+    "id": 250,
+    "topic": "Op-amps",
+    "difficulty": "applied",
+    "instruction": "Explain this electronics concept to an undergraduate student.",
+    "question": "Compare an ideal op-amp integrator and an ideal op-amp differentiator in terms of their response to a sudden step input.",
+    "answer": "An integrator responds to a step input with a smooth, linear ramp in its output over time, since it accumulates the constant input value. A differentiator, in contrast, responds to a step input with a very large, brief spike in output (ideally an impulse), since the rate of change at the step's edge is instantaneously very large, though in practice this is limited by the op-amp's real bandwidth and slew rate."
+  }
+]
